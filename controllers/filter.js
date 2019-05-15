@@ -24,6 +24,7 @@ const plusOn = prop => () => move => move[prop].indexOf('+') > -1;
 
 const minusOn = prop => () => move => move[prop].indexOf('-') > -1;
 
+// These props map to query strings (case insensitive)
 const filterOptions = {
 	special: specialPropsFilter,
 	crush: crushFilter,

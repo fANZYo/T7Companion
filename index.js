@@ -24,8 +24,9 @@ app.get('/', (req, res) => {
 	res.send('T7api running...');
 });
 
+const dbUrl = process.env.DB_URL || config.database.url;
 // eslint-disable-next-line consistent-return
-MongoClient.connect(config.database.url, { useNewUrlParser: true }, (err, client) => {
+MongoClient.connect(dbUrl, { useNewUrlParser: true }, (err, client) => {
 	if (err) {
 		console.log('Error while connecting to mongo database');
 		return 1;
