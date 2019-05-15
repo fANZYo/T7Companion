@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 	res.send('T7api running...');
 });
 
-const dbUrl = process.env.DB_URL || config.database.url;
+const dbUrl = process.env.MONGODB_URI || config.database.url;
 // eslint-disable-next-line consistent-return
 MongoClient.connect(dbUrl, { useNewUrlParser: true }, (err, client) => {
 	if (err) {
