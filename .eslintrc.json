@@ -15,6 +15,7 @@
 	"rules": {
 		"indent": [1, "tab"],
 		"no-tabs": 0,
-		"arrow-parens": [2, "as-needed"]
+		"arrow-parens": [2, "as-needed"],
+		"implicit-arrow-linebreak": 0
 	}
 }

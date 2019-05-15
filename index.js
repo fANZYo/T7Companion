@@ -1,19 +1,24 @@
 const express = require('express');
 const { MongoClient } = require('mongodb');
 
+// Middleware
+const boolParser = require('express-query-boolean');
+const { logRequest, lowerQuery } = require('./controllers/middleware');
+
 const config = require('./config');
 
 // Routes
-const searchRoute = require('./routes/search');
+const commandRoute = require('./routes/command');
+const filterRoute = require('./routes/filter');
 
 const app = express();
 
-app.use((req, res, next) => {
-	console.log(`${req.method} ${req.originalUrl}`);
-	next();
-});
+app.use(boolParser());
+app.use(logRequest);
+app.use(lowerQuery);
 
-app.use('/api', searchRoute);
+app.use('/cmd', commandRoute);
+app.use('/filter', filterRoute);
 
 app.get('/', (req, res) => {
 	res.send('T7api running...');
