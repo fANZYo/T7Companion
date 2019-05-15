@@ -1,6 +1,6 @@
 module.exports = {
 	database: {
-		url: 'mongodb://localhost:27017',
+		url: 'mongodb://admin:123456@localhost:27017/t7api',
 		collection: 'characters',
 	},
 	characters: [
