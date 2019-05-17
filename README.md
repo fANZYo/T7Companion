@@ -26,7 +26,7 @@ Simple Tekken 7 movelist querying API
 - `minusOnCounter` -> `Bool`
 - `hit` -> `enum { 'h', 'm', 'l' }` (also accept comma separated list of values)
 - `speed` -> `range -> min,max`
-- `crush` -> `enum { 'TC', 'TJ' }` (elso accept separated list of values)
+- `crush` -> `enum { 'TC', 'TJ' }` (elso accept comma separated list of values)
 - `special` -> `String` (matches to the `notes` property on the `move` object)
 
 ### Examples
