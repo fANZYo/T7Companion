@@ -2,6 +2,15 @@
 
 Simple Tekken 7 movelist querying API
 
+## Tech Stack
+
+- Node.js (ES6+)
+- MongoDB
+- Redis
+- Heroku
+- ESLint *(Airbnb styleguide)*
+- CircleCI *(comming)*
+
 ## Endpoints
 
 Base URL: `https://t7api.herokuapp.com`
