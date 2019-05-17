@@ -43,5 +43,5 @@ Find all of Paul's punishable on hit moves
 
 ## TODO
 
-Add all remaining characters to mongoDB
-Add CI
+- Add all remaining characters to mongoDB
+- Add CI
