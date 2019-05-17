@@ -39,7 +39,7 @@ Fuzzy search Josie's movelist for "df2"
 ```
 /filter?c=paul&minusOnHit=true
 ```
-Find all of Paul's punishable moves on hit
+Find all of Paul's punishable on hit moves
 
 ## TODO
 
