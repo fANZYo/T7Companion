@@ -4,6 +4,8 @@ Simple Tekken 7 movelist querying API
 
 ## Endpoints
 
+Base URL: `https://t7api.herokuapp.com`
+
 - `/cmd`: Fuzzy search for a specific character command
 - `/filter`: Filter a character's move list
 
