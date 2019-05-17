@@ -14,6 +14,11 @@ const middleware = {
 
 		next();
 	},
+	redisKeyGen: (req, res, next) => {
+		req.redisKey = `movelist:${req.query.c}`;
+
+		next();
+	},
 };
 
 module.exports = middleware;

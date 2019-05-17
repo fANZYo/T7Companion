@@ -1,7 +1,10 @@
 module.exports = {
 	database: {
-		url: 'mongodb://admin:123456@localhost:27017/t7api',
+		url: 'mongodb://localhost:27017/t7api',
 		collection: 'characters',
+	},
+	redis: {
+		url: 'redis://localhost:6379',
 	},
 	characters: [
 		'asuka',

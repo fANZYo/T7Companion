@@ -22,7 +22,8 @@
 		"express": "^4.16.4",
 		"express-query-boolean": "^2.0.0",
 		"fuzzy-search": "^3.0.1",
-		"mongodb": "^3.2.4"
+		"mongodb": "^3.2.4",
+		"redis": "^2.8.0"
 	},
 	"devDependencies": {
 		"eslint": "^5.16.0",

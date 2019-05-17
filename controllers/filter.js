@@ -39,26 +39,32 @@ const filterOptions = {
 };
 
 const filterMoves = async (req, res) => {
-	const filters = Object.keys(filterOptions)
-		.filter(f => f in req.query)
-		.map(f => {
-			const temp = {};
-			temp[f] = req.query[f];
-			return temp;
-		})
-		.reduce((obj, cur) => Object.assign(obj, cur), {});
+	req.app.locals.redis.get(req.redisKey, async (err, reply) => {
+		const filters = Object.keys(filterOptions)
+			.filter(f => f in req.query)
+			.map(f => {
+				const temp = {};
+				temp[f] = req.query[f];
+				return temp;
+			})
+			.reduce((obj, cur) => Object.assign(obj, cur), {});
 
-	let { movelist } = await req.app.locals.db
-		.collection(config.database.collection)
-		.findOne(
-			{ name: config.characters.find(c => c === req.query.c.toLowerCase()) },
-		);
+		let { movelist } = reply ? { movelist: JSON.parse(reply) } : await req.app.locals.db
+			.collection(config.database.collection)
+			.findOne(
+				{ name: config.characters.find(c => c === req.query.c.toLowerCase()) },
+			);
 
-	Object.entries(filters).forEach(([filter, value]) => {
-		movelist = movelist.filter(filterOptions[filter](value));
+		if (!reply) {
+			req.app.locals.redis.set(req.redisKey, JSON.stringify(movelist));
+		}
+
+		Object.entries(filters).forEach(([filter, value]) => {
+			movelist = movelist.filter(filterOptions[filter](value));
+		});
+
+		res.json(movelist);
 	});
-
-	res.json(movelist);
 };
 
 module.exports = filterMoves;

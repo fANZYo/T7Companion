@@ -1,9 +1,14 @@
 const express = require('express');
 const { MongoClient } = require('mongodb');
+const redis = require('redis');
 
 // Middleware
 const boolParser = require('express-query-boolean');
-const { logRequest, lowerQuery } = require('./controllers/middleware');
+const {
+	logRequest,
+	lowerQuery,
+	redisKeyGen,
+} = require('./controllers/middleware');
 
 const config = require('./config');
 
@@ -16,6 +21,7 @@ const app = express();
 app.use(boolParser());
 app.use(logRequest);
 app.use(lowerQuery);
+app.use(redisKeyGen);
 
 app.use('/cmd', commandRoute);
 app.use('/filter', filterRoute);
@@ -25,6 +31,7 @@ app.get('/', (req, res) => {
 });
 
 const dbUrl = process.env.MONGODB_URI || config.database.url;
+const redisUrl = process.env.REDISCLOUD_URL || config.redis.url;
 // eslint-disable-next-line consistent-return
 MongoClient.connect(dbUrl, { useNewUrlParser: true }, (err, client) => {
 	if (err) {
@@ -33,6 +40,7 @@ MongoClient.connect(dbUrl, { useNewUrlParser: true }, (err, client) => {
 	}
 
 	app.locals.db = client.db(client.s.options.dbName);
+	app.locals.redis = redis.createClient(redisUrl, { no_ready_check: true });
 
 	const port = process.env.PORT || 5000;
 	app.listen(port, () => {
