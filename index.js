@@ -13,8 +13,11 @@ const {
 const config = require('./config');
 
 // Routes
-const commandRoute = require('./routes/command');
-const filterRoute = require('./routes/filter');
+const {
+	rootRoute,
+	commandRoute,
+	filterRoute,
+} = require('./routes');
 
 const app = express();
 
@@ -23,12 +26,9 @@ app.use(logRequest);
 app.use(lowerQuery);
 app.use(redisKeyGen);
 
+app.use('/', rootRoute);
 app.use('/cmd', commandRoute);
 app.use('/filter', filterRoute);
-
-app.get('/', (req, res) => {
-	res.send('T7api running...');
-});
 
 const dbUrl = process.env.MONGODB_URI || config.database.url;
 const redisUrl = process.env.REDISCLOUD_URL || config.redis.url;
