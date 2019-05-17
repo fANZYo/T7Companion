@@ -9,7 +9,7 @@ Simple Tekken 7 movelist querying API
 - Redis
 - Heroku
 - ESLint *(Airbnb styleguide)*
-- CircleCI *(comming)*
+- CircleCI *(coming)*
 
 ## Endpoints
 
