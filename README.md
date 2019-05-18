@@ -15,19 +15,15 @@ Simple Tekken 7 movelist querying API
 
 Base URL: `https://t7api.herokuapp.com`
 
-- `/cmd`: Fuzzy search for a specific character command
-- `/filter`: Filter a character's move list
+- `/character/<character-name>`
 
 ## Parameters
 
-#### Required
-- `c`: Name of the character (e.g. `c=paul`)
-
-#### `/cmd`
+#### `cmd`
 
 - `cmd`: Command to find in the character's move list (e.g. `cmd=df2`)
 
-#### `/filter`
+#### `<filter>`
 
 - `plusOnBlock` -> `Bool`
 - `plusOnHit` -> `Bool`
@@ -43,12 +39,12 @@ Base URL: `https://t7api.herokuapp.com`
 ### Examples
 
 ```
-/cmd?c=josie&cmd=df2
+/character/josie?cmd=df2
 ```
 Fuzzy search Josie's movelist for "df2"
 
 ```
-/filter?c=paul&minusOnHit=true
+/character/paul?minusOnHit=true
 ```
 Find all of Paul's punishable on hit moves
 
