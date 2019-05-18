@@ -7,7 +7,6 @@ const boolParser = require('express-query-boolean');
 const {
 	logRequest,
 	lowerQuery,
-	redisKeyGen,
 } = require('./controllers/middleware');
 
 const config = require('./config');
@@ -15,8 +14,7 @@ const config = require('./config');
 // Routes
 const {
 	rootRoute,
-	commandRoute,
-	filterRoute,
+	characterRouter,
 } = require('./routes');
 
 const app = express();
@@ -24,11 +22,9 @@ const app = express();
 app.use(boolParser());
 app.use(logRequest);
 app.use(lowerQuery);
-app.use(redisKeyGen);
 
 app.use('/', rootRoute);
-app.use('/cmd', commandRoute);
-app.use('/filter', filterRoute);
+app.use('/character', characterRouter);
 
 const dbUrl = process.env.MONGODB_URI || config.database.url;
 const redisUrl = process.env.REDISCLOUD_URL || config.redis.url;

@@ -1,7 +1,6 @@
 const rootRoute = require('express').Router();
 
-const commandRoute = require('./command');
-const filterRoute = require('./filter');
+const characterRouter = require('./character');
 
 rootRoute.route('/')
 	.get((req, res) => {
@@ -10,6 +9,5 @@ rootRoute.route('/')
 
 module.exports = {
 	rootRoute,
-	commandRoute,
-	filterRoute,
+	characterRouter,
 };
