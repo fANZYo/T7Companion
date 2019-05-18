@@ -50,5 +50,8 @@ Find all of Paul's punishable on hit moves
 
 ## TODO
 
-- Add all remaining characters to mongoDB
 - Add CI
+- Highlight safe moves
+- Move names
+- A gif of the move
+- A quiz mode, where you see a gif of the move and you have to input the correct frame (dis)advantage
