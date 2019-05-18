@@ -2,6 +2,7 @@
 	"name": "marduk",
 	"movelist": [
 		{
+			"description": "",
 			"cmd": "In rage b+1+2",
 			"hit": "m (throw)",
 			"dmg": "55",
@@ -12,6 +13,7 @@
 			"notes": "Rage art"
 		},
 		{
+			"description": "",
 			"cmd": "In rage f+2+3",
 			"hit": "m (throw)",
 			"dmg": "35(,12)",
@@ -22,6 +24,7 @@
 			"notes": "Rage drive"
 		},
 		{
+			"description": "",
 			"cmd": "In rage f+2+3 (far)",
 			"hit": "sm",
 			"dmg": "10",
@@ -32,6 +35,7 @@
 			"notes": "Rage drive"
 		},
 		{
+			"description": "",
 			"cmd": "1",
 			"hit": "h",
 			"dmg": "7",
@@ -42,6 +46,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "1, 2",
 			"hit": "h, h",
 			"dmg": "7, 12",
@@ -52,6 +57,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "1, 2, 3+4",
 			"hit": "h, h, (special)7, 12",
 			"dmg": "",
@@ -62,6 +68,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "1, 2, 3+4, 3+4",
 			"hit": "h, h (special)",
 			"dmg": "7, 12",
@@ -72,6 +79,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "1, 2, 3",
 			"hit": "h, h, m",
 			"dmg": "7, 12, 12",
@@ -82,6 +90,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "1, 2, 3, 1+2",
 			"hit": "h, h, m, h",
 			"dmg": "7, 12, 12, 28",
@@ -92,6 +101,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "1, 2, f+1",
 			"hit": "h, h, h",
 			"dmg": "7, 12, 21",
@@ -102,6 +112,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "1, d+2",
 			"hit": "h, m",
 			"dmg": "7, 13",
@@ -112,6 +123,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "2",
 			"hit": "h",
 			"dmg": "10",
@@ -122,6 +134,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "2, 1",
 			"hit": "h, h",
 			"dmg": "10, 12",
@@ -132,6 +145,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "2, d+1+2",
 			"hit": "h, m",
 			"dmg": "10, 22",
@@ -142,6 +156,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "3",
 			"hit": "h",
 			"dmg": "28",
@@ -152,6 +167,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "4",
 			"hit": "h",
 			"dmg": "16",
@@ -162,6 +178,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "1+2",
 			"hit": "m",
 			"dmg": "0",
@@ -172,6 +189,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f+2",
 			"hit": "h",
 			"dmg": "20",
@@ -182,6 +200,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f+2, 1",
 			"hit": "h, h",
 			"dmg": "20, 25",
@@ -192,6 +211,7 @@
 			"notes": "Tail spin"
 		},
 		{
+			"description": "",
 			"cmd": "f+2, d+1",
 			"hit": "h, m",
 			"dmg": "20, 17",
@@ -202,6 +222,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f+2, d+1, 2",
 			"hit": "h, m, m",
 			"dmg": "20, 17, 16",
@@ -212,6 +233,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f+3",
 			"hit": "m",
 			"dmg": "17",
@@ -222,6 +244,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f+3, 2",
 			"hit": "m, m",
 			"dmg": "17, 20",
@@ -232,6 +255,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f+4",
 			"hit": "m",
 			"dmg": "20",
@@ -242,6 +266,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f+1+2",
 			"hit": "h",
 			"dmg": "21",
@@ -252,6 +277,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f+3+4",
 			"hit": "h!",
 			"dmg": "30",
@@ -262,6 +288,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f+3+4, 3+4",
 			"hit": "(special)",
 			"dmg": "",
@@ -272,6 +299,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f+1+4",
 			"hit": "m",
 			"dmg": "25",
@@ -282,6 +310,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+1",
 			"hit": "m",
 			"dmg": "15",
@@ -292,6 +321,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+2",
 			"hit": "m",
 			"dmg": "16",
@@ -302,6 +332,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+2, 1",
 			"hit": "m, m",
 			"dmg": "16, 21",
@@ -312,6 +343,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3",
 			"hit": "m",
 			"dmg": "13",
@@ -322,6 +354,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3, 1",
 			"hit": "m, h",
 			"dmg": "13, 7",
@@ -332,6 +365,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3, 1, 2",
 			"hit": "m, h, h",
 			"dmg": "13, 7, 10",
@@ -342,6 +376,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3, 1, 2, 3+4",
 			"hit": "m, h, h (special)",
 			"dmg": "13, 7, 10",
@@ -352,6 +387,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3, 1, 2, 3+4, 3+4",
 			"hit": "m, h, h (special)",
 			"dmg": "13, 7, 10",
@@ -362,6 +398,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3, 1, 2, 3",
 			"hit": "m, h, h, m",
 			"dmg": "13, 7, 10, 12",
@@ -372,6 +409,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3, 1, 2, 3, 1+2",
 			"hit": "m, h, h, m, h",
 			"dmg": "13, 7, 10, 12",
@@ -382,6 +420,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3, 1, 2, f+1",
 			"hit": "m, h, h, h,",
 			"dmg": "13, 7, 10, 12, 28",
@@ -392,6 +431,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3, 1, d+2",
 			"hit": "m, h, m",
 			"dmg": "13, 7, 13",
@@ -402,6 +442,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3, 1+2",
 			"hit": "m, h",
 			"dmg": "13, 28",
@@ -412,6 +453,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3, d/f+1",
 			"hit": "m, m",
 			"dmg": "13, 10",
@@ -422,6 +464,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3, d/f+1, 2",
 			"hit": "m, m, h",
 			"dmg": "13, 10, 21",
@@ -432,6 +475,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+4",
 			"hit": "m",
 			"dmg": "13",
@@ -442,6 +486,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+4, 2",
 			"hit": "m, h",
 			"dmg": "13, 25",
@@ -452,6 +497,7 @@
 			"notes": "Tail spin"
 		},
 		{
+			"description": "",
 			"cmd": "d/f+1+2",
 			"hit": "m (TC)",
 			"dmg": "23",
@@ -462,6 +508,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d+1",
 			"hit": "m",
 			"dmg": "20",
@@ -472,6 +519,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d+2",
 			"hit": "m",
 			"dmg": "15",
@@ -482,6 +530,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d+2, 4",
 			"hit": "m, m",
 			"dmg": "15, 21",
@@ -492,6 +541,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d+3",
 			"hit": "l",
 			"dmg": "18",
@@ -502,6 +552,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d+4",
 			"hit": "l (TC)",
 			"dmg": "16",
@@ -512,6 +563,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d+1+2",
 			"hit": "m (TC)",
 			"dmg": "22",
@@ -522,6 +574,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/b+1",
 			"hit": "sm (TC)",
 			"dmg": "5",
@@ -532,6 +585,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/b+2",
 			"hit": "m",
 			"dmg": "20",
@@ -542,6 +596,7 @@
 			"notes": "Tail spin"
 		},
 		{
+			"description": "",
 			"cmd": "d/b+3",
 			"hit": "l",
 			"dmg": "10",
@@ -552,6 +607,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/b+3, 1",
 			"hit": "l, h",
 			"dmg": "10, 16",
@@ -562,6 +618,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/b+3, 1, 1",
 			"hit": "l, h, m",
 			"dmg": "10, 16, 23",
@@ -572,6 +629,7 @@
 			"notes": "Tail spin"
 		},
 		{
+			"description": "",
 			"cmd": "d/b+3, 1, 1, 3+4",
 			"hit": "l, h (special)",
 			"dmg": "10, 16",
@@ -582,6 +640,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/b+3, 1, 1, 3+4",
 			"hit": "l, h (cancel)",
 			"dmg": "10, 16",
@@ -592,6 +651,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/b+3, 4",
 			"hit": "l, m",
 			"dmg": "10, 16",
@@ -602,6 +662,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/b+3, 4, 1+2",
 			"hit": "l, m (throw)",
 			"dmg": "10, 12 (10)",
@@ -612,6 +673,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/b+4",
 			"hit": "l (throw)",
 			"dmg": "12(,10)",
@@ -622,6 +684,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/b+1+2",
 			"hit": "m",
 			"dmg": "23",
@@ -632,6 +695,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "b+1",
 			"hit": "m",
 			"dmg": "10",
@@ -642,6 +706,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "b+1, 2",
 			"hit": "m, m",
 			"dmg": "10, 15",
@@ -652,6 +717,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "b+2",
 			"hit": "m",
 			"dmg": "24",
@@ -662,6 +728,7 @@
 			"notes": "Homing"
 		},
 		{
+			"description": "",
 			"cmd": "b+3",
 			"hit": "m",
 			"dmg": "26",
@@ -672,6 +739,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "b+4",
 			"hit": "m",
 			"dmg": "20",
@@ -682,6 +750,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "b+3+4",
 			"hit": "h",
 			"dmg": "30",
@@ -692,6 +761,7 @@
 			"notes": "Wall bounce"
 		},
 		{
+			"description": "",
 			"cmd": "b+2+3",
 			"hit": "m! (throw)",
 			"dmg": "70",
@@ -702,6 +772,7 @@
 			"notes": "b,b to cancel"
 		},
 		{
+			"description": "",
 			"cmd": "b+2+3, 1+2",
 			"hit": "m (throw)",
 			"dmg": "12(10)",
@@ -712,6 +783,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "u/b or u or u/f+1",
 			"hit": "m (TJ)",
 			"dmg": "12",
@@ -722,6 +794,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "u/b or u or u/f+2",
 			"hit": "h",
 			"dmg": "17",
@@ -732,6 +805,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "u/b or u or u/f+3",
 			"hit": "m (TJ)",
 			"dmg": "25",
@@ -742,6 +816,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "u/b+4",
 			"hit": "m (TJ)",
 			"dmg": "14",
@@ -752,6 +827,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "u or u/f+4",
 			"hit": "m (TJ)",
 			"dmg": "18",
@@ -762,6 +838,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "u/b+1+2",
 			"hit": "m",
 			"dmg": "21",
@@ -772,6 +849,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "u/b+1+2, 3+4",
 			"hit": "m (special)",
 			"dmg": "21",
@@ -782,6 +860,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "u/b+1+2, 3+4, 3+4",
 			"hit": "m (special)",
 			"dmg": "21",
@@ -792,6 +871,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "u/f+1+2",
 			"hit": "h",
 			"dmg": "21",
@@ -802,6 +882,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "u/b or u or u/f+3+4",
 			"hit": "m (TJ)",
 			"dmg": "25",
@@ -812,6 +893,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "u/f, N, 4",
 			"hit": "m (TJ)",
 			"dmg": "25",
@@ -822,6 +904,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f, F+2",
 			"hit": "h",
 			"dmg": "21",
@@ -832,6 +915,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f, F+3",
 			"hit": "m",
 			"dmg": "18",
@@ -842,6 +926,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f, F+3, 2",
 			"hit": "m, m",
 			"dmg": "18, 26",
@@ -852,6 +937,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f, F+4",
 			"hit": "m",
 			"dmg": "26",
@@ -862,6 +948,7 @@
 			"notes": "Tail spin, Homing"
 		},
 		{
+			"description": "",
 			"cmd": "b, f+1+2",
 			"hit": "m, m",
 			"dmg": "14, 16",
@@ -872,6 +959,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "qcf+1",
 			"hit": "m",
 			"dmg": "21",
@@ -882,6 +970,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "qcf+1, 2",
 			"hit": "m, m",
 			"dmg": "21, 24",
@@ -892,6 +981,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "qcf+1, 2*",
 			"hit": "m, m",
 			"dmg": "21, 40",
@@ -902,6 +992,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "qcf+2",
 			"hit": "l (throw)",
 			"dmg": "20(,35)",
@@ -912,6 +1003,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f, f, f+3",
 			"hit": "m",
 			"dmg": "30",
@@ -922,6 +1014,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "FC+1",
 			"hit": "sm (TC)",
 			"dmg": "5",
@@ -932,6 +1025,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "FC+2",
 			"hit": "sm (TC)",
 			"dmg": "8",
@@ -942,6 +1036,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "FC+3",
 			"hit": "l",
 			"dmg": "12",
@@ -952,6 +1047,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "FC+4",
 			"hit": "l",
 			"dmg": "10",
@@ -962,6 +1058,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "FC+1+2",
 			"hit": "m (throw)",
 			"dmg": "25(,15)",
@@ -972,6 +1069,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "WS+1",
 			"hit": "m",
 			"dmg": "14",
@@ -982,6 +1080,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "WS+1, 3+4",
 			"hit": "m (special)",
 			"dmg": "14",
@@ -992,6 +1091,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "WS+1, 3+4, 3+4",
 			"hit": "m (special)",
 			"dmg": "14",
@@ -1002,6 +1102,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "WS+1, 2",
 			"hit": "m, h",
 			"dmg": "14, 18",
@@ -1012,6 +1113,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "WS+2",
 			"hit": "m",
 			"dmg": "22",
@@ -1022,6 +1124,7 @@
 			"notes": "Tail spin"
 		},
 		{
+			"description": "",
 			"cmd": "WS+3",
 			"hit": "m",
 			"dmg": "20",
@@ -1032,6 +1135,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "WS+4",
 			"hit": "m",
 			"dmg": "21",
@@ -1042,6 +1146,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "WS+1+2",
 			"hit": "m",
 			"dmg": "12",
@@ -1052,6 +1157,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "FC+d/f+2",
 			"hit": "h",
 			"dmg": "28",
@@ -1062,6 +1168,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "FC+d/f+4",
 			"hit": "l",
 			"dmg": "19",
@@ -1072,6 +1179,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "SS+2",
 			"hit": "m",
 			"dmg": "18",
@@ -1082,6 +1190,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "SS+2, 3+4",
 			"hit": "m",
 			"dmg": "18",
@@ -1092,6 +1201,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "SS+2, 3+4, 3+4",
 			"hit": "m",
 			"dmg": "18",
@@ -1102,6 +1212,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "SS+4",
 			"hit": "m",
 			"dmg": "24",
@@ -1112,6 +1223,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "SS+1+2",
 			"hit": "m",
 			"dmg": "25",
@@ -1122,6 +1234,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "(opponent grounded) d/b+4",
 			"hit": "l",
 			"dmg": "23",
@@ -1132,6 +1245,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "(grounded face down) 2",
 			"hit": "m",
 			"dmg": "23",
@@ -1142,6 +1256,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "(grounded face down) d+2",
 			"hit": "l (throw)",
 			"dmg": "18(,10)",
@@ -1152,6 +1267,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "(back to wall) b, b, u/b",
 			"hit": "m",
 			"dmg": "21",
@@ -1162,6 +1278,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "BT 1 or 2",
 			"hit": "h",
 			"dmg": "15",
@@ -1172,6 +1289,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "BT 3 or 4",
 			"hit": "h",
 			"dmg": "18",
@@ -1182,6 +1300,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "BT d+1 or d+2",
 			"hit": "sm",
 			"dmg": "10",
@@ -1192,6 +1311,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "BT d+3 or d+4",
 			"hit": "l",
 			"dmg": "12",
@@ -1202,6 +1322,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "3+4",
 			"hit": "(VTS) TC",
 			"dmg": "",
@@ -1212,6 +1333,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/f+3+4",
 			"hit": "(VTS)",
 			"dmg": "",
@@ -1222,6 +1344,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "d/b+3+4",
 			"hit": "(VTS)",
 			"dmg": "",
@@ -1232,6 +1355,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS 3+4",
 			"hit": "(cancel)",
 			"dmg": "",
@@ -1242,6 +1366,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS u or d",
 			"hit": "(special)",
 			"dmg": "",
@@ -1252,6 +1377,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS f+1",
 			"hit": "m",
 			"dmg": "16",
@@ -1262,6 +1388,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS f+1, 2",
 			"hit": "m, m",
 			"dmg": "16, 20",
@@ -1272,6 +1399,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS f+1, 4",
 			"hit": "m, h",
 			"dmg": "16, 26",
@@ -1282,6 +1410,7 @@
 			"notes": "Tail spin"
 		},
 		{
+			"description": "",
 			"cmd": "VTS f+2",
 			"hit": "m",
 			"dmg": "22",
@@ -1292,6 +1421,7 @@
 			"notes": "Wall boune, Power crush"
 		},
 		{
+			"description": "",
 			"cmd": "VTS d+1+2",
 			"hit": "l, m",
 			"dmg": "20, 20",
@@ -1302,6 +1432,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS d+1+2",
 			"hit": "l, m (second hit only)",
 			"dmg": "20",
@@ -1312,16 +1443,7 @@
 			"notes": ""
 		},
 		{
-			"cmd": "cmd",
-			"hit": "hit",
-			"dmg": "dmg",
-			"speed": "speed",
-			"onBlock": "Break",
-			"onHit": "Break frame",
-			"onCounter": "notes",
-			"notes": ""
-		},
-		{
+			"description": "",
 			"cmd": "1+3",
 			"hit": "h",
 			"dmg": "35",
@@ -1332,6 +1454,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "2+4",
 			"hit": "h",
 			"dmg": "35",
@@ -1342,6 +1465,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "Left side throw",
 			"hit": "h",
 			"dmg": "45",
@@ -1352,6 +1476,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "Right side trhow",
 			"hit": "h",
 			"dmg": "40",
@@ -1362,6 +1487,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "Opponent BT 1+3",
 			"hit": "h",
 			"dmg": "60",
@@ -1372,6 +1498,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "Opponent BT 2+4",
 			"hit": "h",
 			"dmg": "60",
@@ -1382,6 +1509,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f, F+1+2",
 			"hit": "h",
 			"dmg": "20",
@@ -1392,6 +1520,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "qcf+1+3",
 			"hit": "h",
 			"dmg": "30",
@@ -1402,6 +1531,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "qcf+1+3, 1+2",
 			"hit": "h",
 			"dmg": "20",
@@ -1412,6 +1542,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "qcf+2+4",
 			"hit": "h",
 			"dmg": "30",
@@ -1422,6 +1553,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "qcf+2+4, 1+2",
 			"hit": "h",
 			"dmg": "20",
@@ -1432,6 +1564,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "qcb+1+2",
 			"hit": "h",
 			"dmg": "40",
@@ -1442,6 +1575,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "f, hcf+1",
 			"hit": "h",
 			"dmg": "50",
@@ -1452,6 +1586,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS 1+2 (close)",
 			"hit": "m",
 			"dmg": "12",
@@ -1462,6 +1597,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS 1+2",
 			"hit": "m",
 			"dmg": "12",
@@ -1472,6 +1608,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS 1+2 (far)",
 			"hit": "sm",
 			"dmg": "10",
@@ -1482,6 +1619,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS 1+2, u or d",
 			"hit": "(cancel)",
 			"dmg": "",
@@ -1492,6 +1630,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS 1+3",
 			"hit": "h",
 			"dmg": "35",
@@ -1502,6 +1641,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "VTS 2+4",
 			"hit": "h",
 			"dmg": "35",
@@ -1512,6 +1652,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "Mount 1",
 			"hit": "h",
 			"dmg": "35",
@@ -1522,6 +1663,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "Mount 1+3",
 			"hit": "h",
 			"dmg": "40",
@@ -1532,6 +1674,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "Mount 2",
 			"hit": "h",
 			"dmg": "35",
@@ -1542,6 +1685,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "Mount 2+4",
 			"hit": "h",
 			"dmg": "40",
@@ -1552,6 +1696,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "Mount 1+2",
 			"hit": "h",
 			"dmg": "40",
@@ -1562,6 +1707,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "Mount 3+4",
 			"hit": "h",
 			"dmg": "40",
@@ -1572,6 +1718,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "(opponent grounded) d/b+1+3",
 			"hit": "",
 			"dmg": "18",
@@ -1582,6 +1729,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "(opponent groudned) d/b+2+4",
 			"hit": "",
 			"dmg": "18",
@@ -1592,6 +1740,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "(opponent in air) 1+3",
 			"hit": "h",
 			"dmg": "29",
@@ -1602,6 +1751,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "(opponent in air) 2+4",
 			"hit": "h",
 			"dmg": "26",
@@ -1612,6 +1762,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "(opponent in air) f, F+2",
 			"hit": "h",
 			"dmg": "60",
@@ -1622,6 +1773,7 @@
 			"notes": ""
 		},
 		{
+			"description": "",
 			"cmd": "w! 1+3 or 2+4",
 			"hit": "h",
 			"dmg": "60",
