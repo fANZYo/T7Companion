@@ -16,6 +16,15 @@ const middleware = {
 
 		next();
 	},
+	checkCharExists: (req, res, next) => {
+		if (!config.characters.includes(req.params.charId)) {
+			res.json({
+				error: `Could not find character: ${req.params.charId}`,
+			});
+		} else {
+			next();
+		}
+	},
 	redisKeyGen: (req, res, next) => {
 		req.redisKey = `movelist:${req.params.charId}`;
 
