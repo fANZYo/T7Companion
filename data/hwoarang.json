@@ -1,0 +1,2456 @@
+{
+	"name": "hwoarang",
+	"movelist": [
+		{
+			"cmd": "in rage LFS or RFS d+3+4",
+			"hit": "m",
+			"dmg": "55",
+			"speed": "20 pc8~17",
+			"onBlock": "-7",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": "Rage art"
+		},
+		{
+			"cmd": "in rage d+3+4",
+			"hit": "lm",
+			"dmg": "6,9",
+			"speed": "12,28~29",
+			"onBlock": "-4~-3",
+			"onHit": "0~+1",
+			"onCounter": "0~+1",
+			"notes": "Rage drive"
+		},
+		{
+			"cmd": "in rage d+3+4, 4",
+			"hit": "lm, m (TJ)(RFF)",
+			"dmg": "6,9,27",
+			"speed": "js14~",
+			"onBlock": "+6s~+8s",
+			"onHit": "JG",
+			"onCounter": "JG",
+			"notes": "Rage drive"
+		},
+		{
+			"cmd": "in rage u/f+3, 4, 3+4",
+			"hit": "m (TJ), m, hh",
+			"dmg": "15,14,17,27",
+			"speed": "js1~",
+			"onBlock": "+4~+5",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": "Rage drive"
+		},
+		{
+			"cmd": "in rage LFS u/f+3, 4, 3+4",
+			"hit": "m (TJ), m, hh",
+			"dmg": "15,14,17,27",
+			"speed": "js1~",
+			"onBlock": "+4~+5",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": "Rage drive"
+		},
+		{
+			"cmd": "1",
+			"hit": "h",
+			"dmg": "7",
+			"speed": "10",
+			"onBlock": "+1",
+			"onHit": "+8",
+			"onCounter": "+8",
+			"notes": ""
+		},
+		{
+			"cmd": "1, 1",
+			"hit": "h, h",
+			"dmg": "7,8",
+			"speed": "10",
+			"onBlock": "-2",
+			"onHit": "+6",
+			"onCounter": "+6",
+			"notes": ""
+		},
+		{
+			"cmd": "1, 1, 3",
+			"hit": "h, h, l",
+			"dmg": "7,8,10",
+			"speed": "10",
+			"onBlock": "-12",
+			"onHit": "-1",
+			"onCounter": "-1",
+			"notes": ""
+		},
+		{
+			"cmd": "1, 1, 3, 3",
+			"hit": "h, h, l, h",
+			"dmg": "7,8,10,14",
+			"speed": "10",
+			"onBlock": "-14",
+			"onHit": "-3",
+			"onCounter": "-3",
+			"notes": ""
+		},
+		{
+			"cmd": "1, 2",
+			"hit": "h, h",
+			"dmg": "7,10",
+			"speed": "10",
+			"onBlock": "-1",
+			"onHit": "+7",
+			"onCounter": "+8",
+			"notes": ""
+		},
+		{
+			"cmd": "1, 2, 3",
+			"hit": "h, h, (Special)",
+			"dmg": "7,10",
+			"speed": "10",
+			"onBlock": "+3",
+			"onHit": "+11g",
+			"onCounter": "+12",
+			"notes": ""
+		},
+		{
+			"cmd": "1, 2, 4",
+			"hit": "h, h, (Special)",
+			"dmg": "7,10",
+			"speed": "10",
+			"onBlock": "+3",
+			"onHit": "+11g",
+			"onCounter": "+12",
+			"notes": ""
+		},
+		{
+			"cmd": "1, 2, f+3",
+			"hit": "h, h, m",
+			"dmg": "7,10,14",
+			"speed": "10",
+			"onBlock": "-8",
+			"onHit": "+3",
+			"onCounter": "+3",
+			"notes": ""
+		},
+		{
+			"cmd": "1, 2, f+4",
+			"hit": "h, h, h (TJ)",
+			"dmg": "7,10,34",
+			"speed": "js14~",
+			"onBlock": "0",
+			"onHit": "Tail spin",
+			"onCounter": "Tail spin",
+			"notes": "Tail spin"
+		},
+		{
+			"cmd": "2",
+			"hit": "h",
+			"dmg": "9",
+			"speed": "10",
+			"onBlock": "0",
+			"onHit": "+8",
+			"onCounter": "+9",
+			"notes": ""
+		},
+		{
+			"cmd": "2, 3",
+			"hit": "h, (LFS)",
+			"dmg": "9",
+			"speed": "10",
+			"onBlock": "+3",
+			"onHit": "+11g",
+			"onCounter": "+12",
+			"notes": ""
+		},
+		{
+			"cmd": "2, 4",
+			"hit": "h, (RFS)",
+			"dmg": "9",
+			"speed": "10",
+			"onBlock": "+3",
+			"onHit": "+11g",
+			"onCounter": "+12",
+			"notes": ""
+		},
+		{
+			"cmd": "2, f+3",
+			"hit": "h, m",
+			"dmg": "9,14",
+			"speed": "10",
+			"onBlock": "-8",
+			"onHit": "+3",
+			"onCounter": "+3",
+			"notes": ""
+		},
+		{
+			"cmd": "2, f+4",
+			"hit": "h, h (TJ)",
+			"dmg": "9,34",
+			"speed": "js14~",
+			"onBlock": "0",
+			"onHit": "Tail spin",
+			"onCounter": "Tail spin",
+			"notes": "Tail spin"
+		},
+		{
+			"cmd": "3",
+			"hit": "h",
+			"dmg": "15",
+			"speed": "14",
+			"onBlock": "-7",
+			"onHit": "+4",
+			"onCounter": "+4",
+			"notes": ""
+		},
+		{
+			"cmd": "3, 3",
+			"hit": "h, m",
+			"dmg": "15,12",
+			"speed": "14",
+			"onBlock": "-13",
+			"onHit": "-7",
+			"onCounter": "-2",
+			"notes": ""
+		},
+		{
+			"cmd": "3, 3, F",
+			"hit": "h, m, (LFS)",
+			"dmg": "15,12",
+			"speed": "14",
+			"onBlock": "+2",
+			"onHit": "+8",
+			"onCounter": "+13",
+			"notes": ""
+		},
+		{
+			"cmd": "3, 3, 3",
+			"hit": "h, m, m",
+			"dmg": "15,12,15",
+			"speed": "14",
+			"onBlock": "-14",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "3, 3, 4",
+			"hit": "h, m, h, (RFS)",
+			"dmg": "15,12,15",
+			"speed": "14",
+			"onBlock": "+8~+12",
+			"onHit": "+19~+23g",
+			"onCounter": "+19~+23g",
+			"notes": ""
+		},
+		{
+			"cmd": "3, 3, d/f or f+4",
+			"hit": "h, m, h",
+			"dmg": "15,12,23",
+			"speed": "14",
+			"onBlock": "-4~+2y",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "3~4",
+			"hit": "mm (TJ)",
+			"dmg": "11,21",
+			"speed": "22,30 (22)",
+			"onBlock": "-3",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "4",
+			"hit": "h",
+			"dmg": "14",
+			"speed": "11~12",
+			"onBlock": "-6~-5",
+			"onHit": "+5~+6",
+			"onCounter": "+5~+6",
+			"notes": ""
+		},
+		{
+			"cmd": "4, 3",
+			"hit": "h, m(LFF)",
+			"dmg": "14,12",
+			"speed": "11~12",
+			"onBlock": "-6",
+			"onHit": "+5",
+			"onCounter": "+5",
+			"notes": ""
+		},
+		{
+			"cmd": "4, 3, f (Cancel)",
+			"hit": "h, (LFS)",
+			"dmg": "14",
+			"speed": "11~12",
+			"onBlock": "-6~-5",
+			"onHit": "+5~+6",
+			"onCounter": "+5~+6",
+			"notes": ""
+		},
+		{
+			"cmd": "4, 4",
+			"hit": "h, h, (RFS)",
+			"dmg": "14,13",
+			"speed": "11~12",
+			"onBlock": "-1",
+			"onHit": "+10g",
+			"onCounter": "+10",
+			"notes": ""
+		},
+		{
+			"cmd": "4, f+4",
+			"hit": "h, h(RFF)",
+			"dmg": "14,13",
+			"speed": "11~12",
+			"onBlock": "-5",
+			"onHit": "+6",
+			"onCounter": "+6",
+			"notes": ""
+		},
+		{
+			"cmd": "4, 4, 3",
+			"hit": "h, h, m(RFF)",
+			"dmg": "14,10,20",
+			"speed": "11~12",
+			"onBlock": "-15~-9s",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "4, 4, 4",
+			"hit": "h, h, h, (RFS)",
+			"dmg": "14,10,10",
+			"speed": "11~12",
+			"onBlock": "-1",
+			"onHit": "+10g",
+			"onCounter": "+10",
+			"notes": ""
+		},
+		{
+			"cmd": "4, 4, f+4",
+			"hit": "h, h, h(RFF)",
+			"dmg": "14,10,25",
+			"speed": "11~12",
+			"onBlock": "-6",
+			"onHit": "+5",
+			"onCounter": "+5",
+			"notes": ""
+		},
+		{
+			"cmd": "4, 4, 4, 4",
+			"hit": "h, h, h, h(RFF)",
+			"dmg": "14,10,10,20",
+			"speed": "11~12",
+			"onBlock": "+2~+5",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "4, 4, 4, 3",
+			"hit": "h, h, h, m(RFF)",
+			"dmg": "14,10,10,20",
+			"speed": "11~12",
+			"onBlock": "-15~-9s",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "1+2",
+			"hit": "(RFF)",
+			"dmg": "b",
+			"speed": "11~12",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "3+4",
+			"hit": "(RFF)",
+			"dmg": "",
+			"speed": "11~12",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "f+2",
+			"hit": "m(RFF)",
+			"dmg": "15",
+			"speed": "16",
+			"onBlock": "-2",
+			"onHit": "+9",
+			"onCounter": "+9",
+			"notes": ""
+		},
+		{
+			"cmd": "f+3",
+			"hit": "(Special)",
+			"dmg": "",
+			"speed": "13~",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "f+3~n+3",
+			"hit": "m",
+			"dmg": "25",
+			"speed": "20(20~)",
+			"onBlock": "-16",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "f, n+4",
+			"hit": "(Special)",
+			"dmg": "",
+			"speed": "23~",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "f+4",
+			"hit": "h, (RFS)",
+			"dmg": "21",
+			"speed": "17~23",
+			"onBlock": "+8~+12",
+			"onHit": "+19~+23g",
+			"onCounter": "+19~+23g",
+			"notes": ""
+		},
+		{
+			"cmd": "f+1+2",
+			"hit": "m",
+			"dmg": "17",
+			"speed": "15",
+			"onBlock": "-9",
+			"onHit": "+2",
+			"onCounter": "CS",
+			"notes": ""
+		},
+		{
+			"cmd": "d/f+1",
+			"hit": "m",
+			"dmg": "10",
+			"speed": "13~14",
+			"onBlock": "0~+1",
+			"onHit": "+7~+8",
+			"onCounter": "+7~+8",
+			"notes": ""
+		},
+		{
+			"cmd": "d/f+2",
+			"hit": "m",
+			"dmg": "13",
+			"speed": "15~16",
+			"onBlock": "-7~-6",
+			"onHit": "Launch (JG?)(+4a)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "d/f+3",
+			"hit": "m",
+			"dmg": "12",
+			"speed": "22~23",
+			"onBlock": "-14~-13",
+			"onHit": "-4~-3",
+			"onCounter": "-4~-3",
+			"notes": "Power crush"
+		},
+		{
+			"cmd": "d/f+3, 4",
+			"hit": "m, m",
+			"dmg": "12,20",
+			"speed": "22~23",
+			"onBlock": "-14~-13",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "d/f+3, f (Cancel)",
+			"hit": "(LFS)",
+			"dmg": "",
+			"speed": "22~23",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "d/f+4",
+			"hit": "m(RFF)",
+			"dmg": "20",
+			"speed": "16~17",
+			"onBlock": "-8~-7",
+			"onHit": "+8~+9",
+			"onCounter": "KND",
+			"notes": "Homing, Tail spin"
+		},
+		{
+			"cmd": "d/f+1+2",
+			"hit": "m",
+			"dmg": "12",
+			"speed": "13~14",
+			"onBlock": "-3~-2",
+			"onHit": "+8~+9",
+			"onCounter": "+8~+9",
+			"notes": ""
+		},
+		{
+			"cmd": "d/f+3+4",
+			"hit": "m(,  (Sky)(throw))",
+			"dmg": "8(,6,15)",
+			"speed": "15~16",
+			"onBlock": "-11~-10",
+			"onHit": "0~+1",
+			"onCounter": "0~+1",
+			"notes": ""
+		},
+		{
+			"cmd": "d+3",
+			"hit": "l",
+			"dmg": "7",
+			"speed": "17",
+			"onBlock": "-13",
+			"onHit": "-2",
+			"onCounter": "-2",
+			"notes": ""
+		},
+		{
+			"cmd": "d+3, 4",
+			"hit": "l, h, (RFS)",
+			"dmg": "7,13",
+			"speed": "17",
+			"onBlock": "+8~+12",
+			"onHit": "+14~+18g",
+			"onCounter": "+19~+23",
+			"notes": ""
+		},
+		{
+			"cmd": "d+4",
+			"hit": "l (TC)",
+			"dmg": "7",
+			"speed": "19s cs6~",
+			"onBlock": "-17",
+			"onHit": "-6",
+			"onCounter": "-6",
+			"notes": ""
+		},
+		{
+			"cmd": "d+4, 4",
+			"hit": "l (TC), h",
+			"dmg": "7,22",
+			"speed": "19 6~",
+			"onBlock": "-8",
+			"onHit": "Launch (JG?)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "d/b+3",
+			"hit": "l (TC)",
+			"dmg": "12",
+			"speed": "19s cs4~",
+			"onBlock": "-13",
+			"onHit": "0",
+			"onCounter": "+7",
+			"notes": ""
+		},
+		{
+			"cmd": "d/b+4",
+			"hit": "l",
+			"dmg": "12",
+			"speed": "16",
+			"onBlock": "-12",
+			"onHit": "-8",
+			"onCounter": "-1",
+			"notes": ""
+		},
+		{
+			"cmd": "d/b+4, f",
+			"hit": "l, (RFS)",
+			"dmg": "12",
+			"speed": "16",
+			"onBlock": "-1",
+			"onHit": "+3",
+			"onCounter": "+10",
+			"notes": ""
+		},
+		{
+			"cmd": "d/b+4, 4",
+			"hit": "l, h",
+			"dmg": "12,21",
+			"speed": "16",
+			"onBlock": "-3~-1",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": "Tail spin"
+		},
+		{
+			"cmd": "d/b+3+4",
+			"hit": "!",
+			"dmg": "40",
+			"speed": "61~63",
+			"onBlock": "KND",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "d/b+3+4, b, b (Cancel)",
+			"hit": "(LFS)",
+			"dmg": "",
+			"speed": "61~63",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "b+1",
+			"hit": "m",
+			"dmg": "18",
+			"speed": "15",
+			"onBlock": "-13",
+			"onHit": "0",
+			"onCounter": "CS (0)",
+			"notes": ""
+		},
+		{
+			"cmd": "b+2",
+			"hit": "h",
+			"dmg": "18",
+			"speed": "13~15",
+			"onBlock": "-9~-7",
+			"onHit": "+15~+17kg",
+			"onCounter": "+15~+17kg",
+			"notes": ""
+		},
+		{
+			"cmd": "b+3",
+			"hit": "m",
+			"dmg": "17",
+			"speed": "16~18",
+			"onBlock": "-19~-17",
+			"onHit": "Launch (JG?)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "b+4",
+			"hit": "h(RFF)",
+			"dmg": "20",
+			"speed": "13~14",
+			"onBlock": "-9~-8",
+			"onHit": "+2~+3",
+			"onCounter": "CS",
+			"notes": ""
+		},
+		{
+			"cmd": "u/b+3",
+			"hit": "m",
+			"dmg": "8",
+			"speed": "16~17",
+			"onBlock": "-14~-13",
+			"onHit": "-3~-2",
+			"onCounter": "-3~-2",
+			"notes": ""
+		},
+		{
+			"cmd": "u/b+3, 3",
+			"hit": "m, h (TJ), (LFS)",
+			"dmg": "8,15",
+			"speed": "js17~",
+			"onBlock": "+3~+5",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": "Tail spin"
+		},
+		{
+			"cmd": "u/b+3, 4",
+			"hit": "m, m, (RFS)",
+			"dmg": "8,16",
+			"speed": "17~",
+			"onBlock": "-4",
+			"onHit": "+12g",
+			"onCounter": "+12g",
+			"notes": ""
+		},
+		{
+			"cmd": "u/b+4",
+			"hit": "m (TJ)",
+			"dmg": "18",
+			"speed": "17~20 js5~15",
+			"onBlock": "-8~-5",
+			"onHit": "+10~+13",
+			"onCounter": "+10~+13",
+			"notes": ""
+		},
+		{
+			"cmd": "u+3",
+			"hit": "h (TJ), (LFS)",
+			"dmg": "33",
+			"speed": "20 js9~",
+			"onBlock": "+3",
+			"onHit": "uKZD",
+			"onCounter": "uKZD",
+			"notes": ""
+		},
+		{
+			"cmd": "u+4",
+			"hit": "m (TJ), (RFS)",
+			"dmg": "18",
+			"speed": "16~18 js9~",
+			"onBlock": "0~+2",
+			"onHit": "+11~+13g",
+			"onCounter": "+11~+13",
+			"notes": ""
+		},
+		{
+			"cmd": "u+3+4",
+			"hit": "m (TJ)",
+			"dmg": "20",
+			"speed": "25~26 js8~",
+			"onBlock": "-7~-6",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+2",
+			"hit": "m (TJ)",
+			"dmg": "22",
+			"speed": "26 js13~",
+			"onBlock": "+5s",
+			"onHit": "+4s",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+3",
+			"hit": "m (TJ)",
+			"dmg": "15",
+			"speed": "28~29 js9~",
+			"onBlock": "-6~-5",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+3, 4",
+			"hit": "m (TJ), m",
+			"dmg": "15,14",
+			"speed": "js1~",
+			"onBlock": "-8",
+			"onHit": "Launch (JG?)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+3, 4 (when second hit inputted)",
+			"hit": "m (TJ)",
+			"dmg": "15",
+			"speed": "js9~",
+			"onBlock": "-13~-12",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+3, 4, 3",
+			"hit": "m (TJ), m, h",
+			"dmg": "15,14,25",
+			"speed": "9~",
+			"onBlock": "",
+			"onHit": "KND",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+4",
+			"hit": "h (TJ), (RFS)",
+			"dmg": "12",
+			"speed": "22~23 js1~",
+			"onBlock": "-2~-1",
+			"onHit": "+4~+5",
+			"onCounter": "+4~+5",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+4, 4",
+			"hit": "h (TJ), m (TJ), (RFS)",
+			"dmg": "12,12",
+			"speed": "js1~5",
+			"onBlock": "0~+1",
+			"onHit": "+6~+7",
+			"onCounter": "+6~+7",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+4, 4, 4",
+			"hit": "h (TJ), m (TJ), l, (RFS)",
+			"dmg": "12,12,12",
+			"speed": "1~5",
+			"onBlock": "+1~+2",
+			"onHit": "+7~+8",
+			"onCounter": "+7~+8",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+3+4",
+			"hit": "mh (TJ)",
+			"dmg": "9,8",
+			"speed": "14,25 js9~",
+			"onBlock": "-10",
+			"onHit": "+1",
+			"onCounter": "+1",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+3+4, 4",
+			"hit": "mh (TJ), m (TJ)",
+			"dmg": "10,8,13",
+			"speed": "js1~",
+			"onBlock": "-13~-12",
+			"onHit": "+4~+5",
+			"onCounter": "+4~+5",
+			"notes": ""
+		},
+		{
+			"cmd": "f, F+3",
+			"hit": "m(RFF)",
+			"dmg": "24",
+			"speed": "22~26 (23~)",
+			"onBlock": "+6~+10",
+			"onHit": "+6~+10s",
+			"onCounter": "+6~+10s",
+			"notes": ""
+		},
+		{
+			"cmd": "f, F+4",
+			"hit": "m(RFF)",
+			"dmg": "22",
+			"speed": "17~18 (18~)",
+			"onBlock": "-7~-6",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "f, n, d, d/f+3",
+			"hit": "m, (LFS)",
+			"dmg": "27",
+			"speed": "18(21~)",
+			"onBlock": "+3",
+			"onHit": "KND",
+			"onCounter": "CS",
+			"notes": "Wall bounce"
+		},
+		{
+			"cmd": "f, n, d, d/f+4",
+			"hit": "m",
+			"dmg": "18",
+			"speed": "16(19~)",
+			"onBlock": "-18",
+			"onHit": "Launch(JG?)",
+			"onCounter": "Launch(JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "f, n, d/f+4",
+			"hit": "m",
+			"dmg": "18",
+			"speed": "16(18~)",
+			"onBlock": "-10",
+			"onHit": "Launch(JG?)",
+			"onCounter": "Launch(JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "f, f, f+3",
+			"hit": "m (TJ)",
+			"dmg": "30",
+			"speed": "22~24a (25~) js3~",
+			"onBlock": "+6~+8",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "f, f, f+4",
+			"hit": "h",
+			"dmg": "28",
+			"speed": "18~19a (21~) js14~",
+			"onBlock": "+5~+6",
+			"onHit": "+8~+9b",
+			"onCounter": "+8~+9b",
+			"notes": ""
+		},
+		{
+			"cmd": "WS+3",
+			"hit": "m",
+			"dmg": "20",
+			"speed": "14~18",
+			"onBlock": "-7~-3",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "WS+4",
+			"hit": "m",
+			"dmg": "12",
+			"speed": "11~12",
+			"onBlock": "-3~-2",
+			"onHit": "+8~+9",
+			"onCounter": "+8~+9",
+			"notes": ""
+		},
+		{
+			"cmd": "WS+4, 4",
+			"hit": "m, m(RFF)",
+			"dmg": "12,13",
+			"speed": "11~12",
+			"onBlock": "-5~-1",
+			"onHit": "+4~+8s",
+			"onCounter": "+4~+8s",
+			"notes": ""
+		},
+		{
+			"cmd": "WS+3+4",
+			"hit": "m(RFF)",
+			"dmg": "16",
+			"speed": "20~21b",
+			"onBlock": "-9~-8",
+			"onHit": "+2~+3",
+			"onCounter": "+2~+3",
+			"notes": ""
+		},
+		{
+			"cmd": "WS+3+4, 3",
+			"hit": "m, m",
+			"dmg": "16,20",
+			"speed": "20~21",
+			"onBlock": "-5~0",
+			"onHit": "+6~+11s (KND)",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "SS+3",
+			"hit": "m",
+			"dmg": "15",
+			"speed": "18~19 (28~)",
+			"onBlock": "-12~-11",
+			"onHit": "-1~0",
+			"onCounter": "FS (+5~+6)",
+			"notes": ""
+		},
+		{
+			"cmd": "SS+3, 3",
+			"hit": "m, h(LFS)",
+			"dmg": "15,18",
+			"speed": "18~19 (28~)",
+			"onBlock": "+3~+4",
+			"onHit": "+14~+15g",
+			"onCounter": "+14~+15",
+			"notes": ""
+		},
+		{
+			"cmd": "SS+4",
+			"hit": "l(RFF)",
+			"dmg": "18",
+			"speed": "19~20 (29~)",
+			"onBlock": "-13~-12",
+			"onHit": "+5~+6s",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "LFF BT 4",
+			"hit": "m(RFF)",
+			"dmg": "20",
+			"speed": "14~16",
+			"onBlock": "-13~-11",
+			"onHit": "Launch (JG?)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 1+2",
+			"hit": "(LFF)",
+			"dmg": "b",
+			"speed": "14~16",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 3+4",
+			"hit": "(LFF)",
+			"dmg": "",
+			"speed": "14~16",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 1",
+			"hit": "h",
+			"dmg": "10",
+			"speed": "10",
+			"onBlock": "0",
+			"onHit": "+6",
+			"onCounter": "+6",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 1, 1",
+			"hit": "h, m(LFF)",
+			"dmg": "10,12",
+			"speed": "10",
+			"onBlock": "-9",
+			"onHit": "+2",
+			"onCounter": "+2",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 2",
+			"hit": "h",
+			"dmg": "6",
+			"speed": "10",
+			"onBlock": "+2",
+			"onHit": "+8",
+			"onCounter": "+8",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 2, 1",
+			"hit": "h, h",
+			"dmg": "6,10",
+			"speed": "10",
+			"onBlock": "0",
+			"onHit": "+6",
+			"onCounter": "+6",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 2, 1, 1",
+			"hit": "h, h, m(LFF)",
+			"dmg": "6,10,12",
+			"speed": "10",
+			"onBlock": "-9",
+			"onHit": "+2",
+			"onCounter": "+2",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 2, 3",
+			"hit": "h, h(LFF)",
+			"dmg": "6,20",
+			"speed": "10",
+			"onBlock": "-9~-7",
+			"onHit": "+2~+4",
+			"onCounter": "CS",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 2, 4",
+			"hit": "h, h(RFF)",
+			"dmg": "6,12",
+			"speed": "10",
+			"onBlock": "-8",
+			"onHit": "+3",
+			"onCounter": "+3",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 2, 4, b or f",
+			"hit": "h, h, (RFS)",
+			"dmg": "8,16",
+			"speed": "10",
+			"onBlock": "+7",
+			"onHit": "+18g",
+			"onCounter": "+18g (+14)",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 2, 4, d or u",
+			"hit": "h, h, (RFS)",
+			"dmg": "8,16",
+			"speed": "10",
+			"onBlock": "+6",
+			"onHit": "+17g",
+			"onCounter": "+17g (+13)",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 2, 4, 3",
+			"hit": "h, h, m",
+			"dmg": "6,12,20",
+			"speed": "10",
+			"onBlock": "-15~-9s",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 2, 4, 4",
+			"hit": "h, h, h(LFF)",
+			"dmg": "6,12,23",
+			"speed": "10",
+			"onBlock": "-5~-4",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": "Tail spin"
+		},
+		{
+			"cmd": "RFF 2, b+4",
+			"hit": "h, h (TC)(LFF)",
+			"dmg": "6,27",
+			"speed": "10",
+			"onBlock": "-9~-8",
+			"onHit": "+13kg",
+			"onCounter": "+13kg",
+			"notes": "Tail spin"
+		},
+		{
+			"cmd": "RFF 3",
+			"hit": "m(LFF)",
+			"dmg": "13",
+			"speed": "16",
+			"onBlock": "-4",
+			"onHit": "+7",
+			"onCounter": "+7",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 3, 4",
+			"hit": "m, h, (RFS)",
+			"dmg": "13,16",
+			"speed": "16",
+			"onBlock": "+9~+10g",
+			"onHit": "+20~+21g",
+			"onCounter": "+10~+11",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 3, F+4",
+			"hit": "m, h, (RFF)",
+			"dmg": "13,16",
+			"speed": "16",
+			"onBlock": "-7~-6",
+			"onHit": "+4~+5",
+			"onCounter": "-6~-5",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 3~4",
+			"hit": "h(LFF)",
+			"dmg": "35",
+			"speed": "27~30 (27~) pc8~26",
+			"onBlock": "+4~+7y",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": "Homing, Tail spin, Power crush"
+		},
+		{
+			"cmd": "RFF 4",
+			"hit": "h(RFF)",
+			"dmg": "12",
+			"speed": "12",
+			"onBlock": "-8",
+			"onHit": "+3",
+			"onCounter": "+3",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 4, b or f",
+			"hit": "h, (RFS)",
+			"dmg": "12",
+			"speed": "12",
+			"onBlock": "+7",
+			"onHit": "+18g",
+			"onCounter": "+18g (+14)",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 4, d or u",
+			"hit": "h, (RFS)",
+			"dmg": "12",
+			"speed": "12",
+			"onBlock": "+6",
+			"onHit": "+17g",
+			"onCounter": "+17g (+13)",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 4, 3",
+			"hit": "h, m, (Special)",
+			"dmg": "12,20",
+			"speed": "12",
+			"onBlock": "-15~-9 OC",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF 4, 4",
+			"hit": "h, h(LFF)",
+			"dmg": "12,23",
+			"speed": "12",
+			"onBlock": "-5~-4",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": "Tail spin"
+		},
+		{
+			"cmd": "RFF f+4",
+			"hit": "(Special)",
+			"dmg": "",
+			"speed": "35~",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF f+4~4",
+			"hit": "m",
+			"dmg": "20",
+			"speed": "18~20 (18~)",
+			"onBlock": "-12~-10",
+			"onHit": "Launch (JG?)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF f+3",
+			"hit": "h, (LFS)",
+			"dmg": "21",
+			"speed": "14~17",
+			"onBlock": "+12~+15g",
+			"onHit": "+23~+26g",
+			"onCounter": "+23~+26g",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF f+3, B",
+			"hit": "h(RFF)",
+			"dmg": "21",
+			"speed": "14~17b",
+			"onBlock": "-11~-8",
+			"onHit": "0~+3",
+			"onCounter": "0~+3",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF d/f+3",
+			"hit": "m(LFF)",
+			"dmg": "25",
+			"speed": "20~21",
+			"onBlock": "-11~-10",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": "Homing, Tail spin"
+		},
+		{
+			"cmd": "RFF d/f+4",
+			"hit": "m",
+			"dmg": "12",
+			"speed": "13",
+			"onBlock": "-7",
+			"onHit": "+1",
+			"onCounter": "+1",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF d/f+4, b or f",
+			"hit": "m, (RFS)",
+			"dmg": "12",
+			"speed": "13",
+			"onBlock": "+7",
+			"onHit": "+15g",
+			"onCounter": "+15",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF d/f+4, d or u",
+			"hit": "m, (RFS)",
+			"dmg": "12",
+			"speed": "13",
+			"onBlock": "+6",
+			"onHit": "+14g",
+			"onCounter": "+14",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF d+4",
+			"hit": "l",
+			"dmg": "19",
+			"speed": "19",
+			"onBlock": "-11",
+			"onHit": "+5",
+			"onCounter": "+15g",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF d/b+3",
+			"hit": "l (TC)",
+			"dmg": "13",
+			"speed": "17 cs10~",
+			"onBlock": "-11",
+			"onHit": "-3",
+			"onCounter": "+4",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF d/b+3, 3",
+			"hit": "l, h(LFF)",
+			"dmg": "13,28",
+			"speed": "17 10~",
+			"onBlock": "-2~0y",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": "Tail spin"
+		},
+		{
+			"cmd": "RFF b+2",
+			"hit": "m",
+			"dmg": "17",
+			"speed": "16~17",
+			"onBlock": "+2~+3",
+			"onHit": "+6~+7s",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF b+3",
+			"hit": "h(LFF)",
+			"dmg": "20",
+			"speed": "13~14",
+			"onBlock": "-9~-8",
+			"onHit": "+2~+3",
+			"onCounter": "CS",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF b+4",
+			"hit": "h (TC)(LFF)",
+			"dmg": "36",
+			"speed": "18~19 cs6~17",
+			"onBlock": "-9~-8",
+			"onHit": "+13kg",
+			"onCounter": "+13kg",
+			"notes": "Tail spin"
+		},
+		{
+			"cmd": "RFF f, F+3",
+			"hit": "m (TJ)(LFF)",
+			"dmg": "22",
+			"speed": "22~25a (23~) js3~",
+			"onBlock": "-6~-3s",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF f, F+4",
+			"hit": "m(LFF)",
+			"dmg": "18",
+			"speed": "22(23~)",
+			"onBlock": "-17",
+			"onHit": "-6",
+			"onCounter": "-6",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF f, F+4, 3",
+			"hit": "m, h (TJ)",
+			"dmg": "18,20",
+			"speed": "js5~",
+			"onBlock": "+14~+17",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF BT 3",
+			"hit": "m(LFF)",
+			"dmg": "20",
+			"speed": "14~16",
+			"onBlock": "-13~-11",
+			"onHit": "Launch (JG?)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF BT 4",
+			"hit": "m(RFF)",
+			"dmg": "16",
+			"speed": "20~21b",
+			"onBlock": "-9~-8",
+			"onHit": "+2~+3",
+			"onCounter": "+2~+3",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF BT 4, 3",
+			"hit": "m, m",
+			"dmg": "16,20",
+			"speed": "20~21",
+			"onBlock": "-5~0",
+			"onHit": "+6~+11s (KND)",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFF BT d+3",
+			"hit": "l (TC)(LFF)",
+			"dmg": "20",
+			"speed": "18~19s cs4~",
+			"onBlock": "-13~-12",
+			"onHit": "-2~-1",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "f+3",
+			"hit": "(Special)",
+			"dmg": "",
+			"speed": "18~19 4~",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS 3+4",
+			"hit": "(RFS)",
+			"dmg": "",
+			"speed": "18~19 4~",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS 1",
+			"hit": "h(LFF)",
+			"dmg": "7",
+			"speed": "13",
+			"onBlock": "+5",
+			"onHit": "+7",
+			"onCounter": "+7",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS 2",
+			"hit": "m(RFF)",
+			"dmg": "15",
+			"speed": "16",
+			"onBlock": "-2",
+			"onHit": "+9",
+			"onCounter": "+9",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS 3",
+			"hit": "m(LFF)",
+			"dmg": "10",
+			"speed": "14",
+			"onBlock": "-13",
+			"onHit": "-7",
+			"onCounter": "-2",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS 3, 3",
+			"hit": "m, m(LFF)",
+			"dmg": "12,15",
+			"speed": "14",
+			"onBlock": "-14",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS 3, F",
+			"hit": "m, (LFS)",
+			"dmg": "12",
+			"speed": "14",
+			"onBlock": "+2",
+			"onHit": "+8",
+			"onCounter": "+13",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS 3, 4",
+			"hit": "m, h, (RFS)",
+			"dmg": "12,15",
+			"speed": "14",
+			"onBlock": "+8~+12",
+			"onHit": "+19~+23g",
+			"onCounter": "+19~+23g",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS 3, d/f or f+4",
+			"hit": "m, h(LFF)",
+			"dmg": "12,23",
+			"speed": "14",
+			"onBlock": "-4~+2y",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS 4",
+			"hit": "h (TJ), (RFS)",
+			"dmg": "24",
+			"speed": "14~16 js8~",
+			"onBlock": "+2~+4",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS 1+4",
+			"hit": "! (TJ)(LFF)",
+			"dmg": "80",
+			"speed": "66~69 js54~",
+			"onBlock": "KND",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS 1+4 , b, b (Cancel)",
+			"hit": "(LFF)",
+			"dmg": "",
+			"speed": "66~69 54~",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS f+3",
+			"hit": "m, (LFS)",
+			"dmg": "23",
+			"speed": "19~20",
+			"onBlock": "+3~+4",
+			"onHit": "KND",
+			"onCounter": "CS (20~21)",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS f+4",
+			"hit": "m(RFF)",
+			"dmg": "17",
+			"speed": "16~18",
+			"onBlock": "-7~-5",
+			"onHit": "+1~+3",
+			"onCounter": "+4~+6",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS f+4, 3",
+			"hit": "m, h (TJ)(RFF)",
+			"dmg": "17,26",
+			"speed": "js17~",
+			"onBlock": "+3~+5",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS d/f+3",
+			"hit": "m(LFF)",
+			"dmg": "17",
+			"speed": "22~23",
+			"onBlock": "-12~-11",
+			"onHit": "+1~+2",
+			"onCounter": "CS",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS d/f+3, 4",
+			"hit": "m, m(LFF)",
+			"dmg": "17,23",
+			"speed": "22~23",
+			"onBlock": "-14~-13",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS d/f+3, f (Cancel)",
+			"hit": "(LFS)",
+			"dmg": "",
+			"speed": "22~23",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS d+3",
+			"hit": "l(LFF)",
+			"dmg": "7",
+			"speed": "16",
+			"onBlock": "-17",
+			"onHit": "-6",
+			"onCounter": "-6",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS d+3, 4",
+			"hit": "l, h, (RFS)",
+			"dmg": "7,10",
+			"speed": "16",
+			"onBlock": "+8~+12g",
+			"onHit": "+14~+18g",
+			"onCounter": "+19~+23",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS d or d/f+4",
+			"hit": "l (TC)(LFF)",
+			"dmg": "12",
+			"speed": "28~30s cs4~",
+			"onBlock": "-23",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS d/b+4",
+			"hit": "l(RFF)",
+			"dmg": "17",
+			"speed": "20~21",
+			"onBlock": "-12~-11",
+			"onHit": "+4~+5",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS b+1",
+			"hit": "m",
+			"dmg": "18",
+			"speed": "15",
+			"onBlock": "-13",
+			"onHit": "0",
+			"onCounter": "CS (0)",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS b+3",
+			"hit": "m (TJ)(RFF)",
+			"dmg": "23",
+			"speed": "20~22 pc8~19 js15~",
+			"onBlock": "-12~-10",
+			"onHit": "+14~+16kg",
+			"onCounter": "+14~+16gk",
+			"notes": "Homing, Tail spin, Power crush"
+		},
+		{
+			"cmd": "LFS b+4",
+			"hit": "m(RFF)",
+			"dmg": "28",
+			"speed": "16~17",
+			"onBlock": "-8~-7",
+			"onHit": "+7~+8",
+			"onCounter": "CS",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS u/f+3",
+			"hit": "m (TJ)(LFF)",
+			"dmg": "13",
+			"speed": "28~29 js9~",
+			"onBlock": "-6~-5",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS u/f+3, 4",
+			"hit": "m (TJ), m(LFF)",
+			"dmg": "13,12",
+			"speed": "js1~",
+			"onBlock": "-8~-7",
+			"onHit": "Launch (JG?)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS u/f+3, 4, 3",
+			"hit": "m (TJ), m, h(LFF)",
+			"dmg": "13,12,24",
+			"speed": "1~",
+			"onBlock": "",
+			"onHit": "KND",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS u/f+4",
+			"hit": "m (TJ)(LFF)",
+			"dmg": "20",
+			"speed": "19 js6~18",
+			"onBlock": "-14~-13",
+			"onHit": "JG",
+			"onCounter": "JG",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS u/f+3+4",
+			"hit": "mh (TJ)(LFF)",
+			"dmg": "10,8",
+			"speed": "14,25 js9~",
+			"onBlock": "-10",
+			"onHit": "+1",
+			"onCounter": "+1",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS u/f+3+4, 4",
+			"hit": "mh (TJ), m (TJ)(LFF)",
+			"dmg": "10,8,13",
+			"speed": "js1~",
+			"onBlock": "-13~-12",
+			"onHit": "+1~+2",
+			"onCounter": "+1~+2",
+			"notes": ""
+		},
+		{
+			"cmd": "LFS f or b or u or d",
+			"hit": "(Special)",
+			"dmg": "",
+			"speed": "1~",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "f, n+4",
+			"hit": "(Special)",
+			"dmg": "",
+			"speed": "1~",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS 3+4",
+			"hit": "(LFS)",
+			"dmg": "",
+			"speed": "1~",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS 1",
+			"hit": "m(LFF)",
+			"dmg": "15",
+			"speed": "16",
+			"onBlock": "-2",
+			"onHit": "+9",
+			"onCounter": "+9",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS 2",
+			"hit": "h(RFF)",
+			"dmg": "7",
+			"speed": "13",
+			"onBlock": "+5",
+			"onHit": "+7",
+			"onCounter": "+7",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS 3",
+			"hit": "h (TJ), (LFS)",
+			"dmg": "24",
+			"speed": "14~16 js8~",
+			"onBlock": "+2~-4",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS 4",
+			"hit": "m(RFF)",
+			"dmg": "20",
+			"speed": "14",
+			"onBlock": "-14",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS f+3",
+			"hit": "m(LFF)",
+			"dmg": "17",
+			"speed": "16~18",
+			"onBlock": "-7~-5",
+			"onHit": "+1~+3",
+			"onCounter": "+4~+6",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS f+3, 4",
+			"hit": "m, h (TJ)(LFF)",
+			"dmg": "17,26",
+			"speed": "js17~",
+			"onBlock": "+3~+5",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS f+4",
+			"hit": "hh, (RFS)",
+			"dmg": "8,10",
+			"speed": "8,18",
+			"onBlock": "+1",
+			"onHit": "+3",
+			"onCounter": "+7",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS f+4, 4",
+			"hit": "hh, h(RFF)",
+			"dmg": "8,10,12",
+			"speed": "8,18",
+			"onBlock": "-6",
+			"onHit": "Launch (JG?)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS d/f+4",
+			"hit": "m(LFF)",
+			"dmg": "17",
+			"speed": "17~19",
+			"onBlock": "+1~+3",
+			"onHit": "+8s~+10s",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS d/b or d or d/f+3",
+			"hit": "l (TC)(LFF)",
+			"dmg": "12",
+			"speed": "28~30s cs4~",
+			"onBlock": "-23",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS d+4",
+			"hit": "l(LFF)",
+			"dmg": "11",
+			"speed": "20~21",
+			"onBlock": "-31",
+			"onHit": "-1~0 (KND)",
+			"onCounter": "-1~0 (KND)",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS d+4, 3",
+			"hit": "l, m(LFF)",
+			"dmg": "11,25",
+			"speed": "20~21",
+			"onBlock": "-14",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS b+3",
+			"hit": "m(LFF)",
+			"dmg": "21",
+			"speed": "16~17",
+			"onBlock": "-10~-9",
+			"onHit": "JG",
+			"onCounter": "JG",
+			"notes": ""
+		},
+		{
+			"cmd": "RFS b+4",
+			"hit": "m (TJ)(LFF)",
+			"dmg": "23",
+			"speed": "20~22 pc8~19 js15~",
+			"onBlock": "-12~-10",
+			"onHit": "+14kg",
+			"onCounter": "+14kg",
+			"notes": "Homing, Tail spin, Power crush"
+		},
+		{
+			"cmd": "RFS f or b or u or d",
+			"hit": "(Special)",
+			"dmg": "",
+			"speed": "20~22 8~19 15~",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "cmd",
+			"hit": "hit",
+			"dmg": "dmg",
+			"speed": "speed",
+			"onBlock": "onBlock",
+			"onHit": "onHit",
+			"onCounter": "onCounter",
+			"notes": "notes"
+		},
+		{
+			"cmd": "1",
+			"hit": "h",
+			"dmg": "7",
+			"speed": "10",
+			"onBlock": "+1",
+			"onHit": "+8",
+			"onCounter": "+8",
+			"notes": ""
+		},
+		{
+			"cmd": "2",
+			"hit": "h",
+			"dmg": "9",
+			"speed": "10",
+			"onBlock": "0",
+			"onHit": "+8",
+			"onCounter": "+9",
+			"notes": ""
+		},
+		{
+			"cmd": "3",
+			"hit": "h",
+			"dmg": "15",
+			"speed": "14",
+			"onBlock": "-7",
+			"onHit": "+4",
+			"onCounter": "+4",
+			"notes": ""
+		},
+		{
+			"cmd": "4",
+			"hit": "h",
+			"dmg": "14",
+			"speed": "11~12",
+			"onBlock": "-6~-5",
+			"onHit": "+5~+6",
+			"onCounter": "+5~+6",
+			"notes": ""
+		},
+		{
+			"cmd": "f+1",
+			"hit": "h",
+			"dmg": "7",
+			"speed": "10",
+			"onBlock": "+1",
+			"onHit": "+8",
+			"onCounter": "+8",
+			"notes": ""
+		},
+		{
+			"cmd": "f+2",
+			"hit": "m(RFF)",
+			"dmg": "15",
+			"speed": "16",
+			"onBlock": "-2",
+			"onHit": "+9",
+			"onCounter": "+9",
+			"notes": ""
+		},
+		{
+			"cmd": "f+3",
+			"hit": "(Special)",
+			"dmg": "",
+			"speed": "16",
+			"onBlock": "",
+			"onHit": "",
+			"onCounter": "",
+			"notes": ""
+		},
+		{
+			"cmd": "f+4",
+			"hit": "h, (RFS)",
+			"dmg": "21",
+			"speed": "17~23",
+			"onBlock": "+8~+12",
+			"onHit": "+19~+23g",
+			"onCounter": "+19~+23g",
+			"notes": ""
+		},
+		{
+			"cmd": "d/f+1",
+			"hit": "m",
+			"dmg": "10",
+			"speed": "13~14",
+			"onBlock": "0~+1",
+			"onHit": "+7~+8",
+			"onCounter": "+7~+8",
+			"notes": ""
+		},
+		{
+			"cmd": "d/f+2",
+			"hit": "m",
+			"dmg": "13",
+			"speed": "15~16",
+			"onBlock": "-7~-6",
+			"onHit": "Launch (JG?)(+4a)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "d/f+3",
+			"hit": "m",
+			"dmg": "12",
+			"speed": "22~23",
+			"onBlock": "-14~-13",
+			"onHit": "-4~-3",
+			"onCounter": "-4~-3",
+			"notes": "Power crush"
+		},
+		{
+			"cmd": "d/f+4",
+			"hit": "m(RFF)",
+			"dmg": "20",
+			"speed": "16~17",
+			"onBlock": "-8~-7",
+			"onHit": "+8~+9",
+			"onCounter": "KND",
+			"notes": "Homing, Tail spin"
+		},
+		{
+			"cmd": "d/f+1+2",
+			"hit": "m",
+			"dmg": "12",
+			"speed": "13~14",
+			"onBlock": "-3~-2",
+			"onHit": "+8~+9",
+			"onCounter": "+8~+9",
+			"notes": ""
+		},
+		{
+			"cmd": "d/b or d+1",
+			"hit": "Sm (TC)",
+			"dmg": "5",
+			"speed": "10s cs4~",
+			"onBlock": "-5",
+			"onHit": "+6",
+			"onCounter": "+6",
+			"notes": ""
+		},
+		{
+			"cmd": "d/b or d+2",
+			"hit": "Sm (TC)",
+			"dmg": "8",
+			"speed": "11s cs4~",
+			"onBlock": "-4",
+			"onHit": "+7",
+			"onCounter": "+7",
+			"notes": ""
+		},
+		{
+			"cmd": "d+3",
+			"hit": "l",
+			"dmg": "7",
+			"speed": "17",
+			"onBlock": "-13",
+			"onHit": "-2",
+			"onCounter": "-2",
+			"notes": ""
+		},
+		{
+			"cmd": "d+4",
+			"hit": "l (TC)",
+			"dmg": "7",
+			"speed": "19s cs6~",
+			"onBlock": "-17",
+			"onHit": "-6",
+			"onCounter": "-6",
+			"notes": ""
+		},
+		{
+			"cmd": "d/b or d+1",
+			"hit": "Sm (TC)",
+			"dmg": "5",
+			"speed": "10s cs4~",
+			"onBlock": "-5",
+			"onHit": "+6",
+			"onCounter": "+6",
+			"notes": ""
+		},
+		{
+			"cmd": "d/b or d+2",
+			"hit": "Sm (TC)",
+			"dmg": "8",
+			"speed": "11s cs4~",
+			"onBlock": "-4",
+			"onHit": "+7",
+			"onCounter": "+7",
+			"notes": ""
+		},
+		{
+			"cmd": "d/b+3",
+			"hit": "l (TC)",
+			"dmg": "12",
+			"speed": "19s cs4~",
+			"onBlock": "-13",
+			"onHit": "0",
+			"onCounter": "+7",
+			"notes": ""
+		},
+		{
+			"cmd": "d/b+4",
+			"hit": "l",
+			"dmg": "12",
+			"speed": "16",
+			"onBlock": "-12",
+			"onHit": "-8",
+			"onCounter": "-1",
+			"notes": ""
+		},
+		{
+			"cmd": "b+1",
+			"hit": "m",
+			"dmg": "18",
+			"speed": "15",
+			"onBlock": "-13",
+			"onHit": "0",
+			"onCounter": "CS (0)",
+			"notes": ""
+		},
+		{
+			"cmd": "b+2",
+			"hit": "h",
+			"dmg": "18",
+			"speed": "13~15",
+			"onBlock": "-9~-7",
+			"onHit": "+15~+17kg",
+			"onCounter": "+15~+17kg",
+			"notes": ""
+		},
+		{
+			"cmd": "b+3",
+			"hit": "m",
+			"dmg": "17",
+			"speed": "16~18",
+			"onBlock": "-19~-17",
+			"onHit": "Launch (JG?)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "b+4",
+			"hit": "h(RFF)",
+			"dmg": "20",
+			"speed": "13~14",
+			"onBlock": "-9~-8",
+			"onHit": "+2~+3",
+			"onCounter": "CS",
+			"notes": ""
+		},
+		{
+			"cmd": "u/b or u or u/f+1",
+			"hit": "m (TJ)",
+			"dmg": "12",
+			"speed": "18 js9~",
+			"onBlock": "-8",
+			"onHit": "+3",
+			"onCounter": "+3",
+			"notes": ""
+		},
+		{
+			"cmd": "u/b or u+2",
+			"hit": "h",
+			"dmg": "17",
+			"speed": "15~16",
+			"onBlock": "-12~-11",
+			"onHit": "+9~+10g",
+			"onCounter": "+9~+10g",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+2",
+			"hit": "m (TJ)",
+			"dmg": "22",
+			"speed": "26 js13~",
+			"onBlock": "+5s",
+			"onHit": "+4s",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "u/b+3",
+			"hit": "m",
+			"dmg": "8",
+			"speed": "16~17",
+			"onBlock": "-14~-13",
+			"onHit": "-3~-2",
+			"onCounter": "-3~-2",
+			"notes": ""
+		},
+		{
+			"cmd": "u+3",
+			"hit": "h (TJ), (LFS)",
+			"dmg": "33",
+			"speed": "20 js9~",
+			"onBlock": "+3",
+			"onHit": "uKZD",
+			"onCounter": "uKZD",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+3",
+			"hit": "m (TJ)",
+			"dmg": "15",
+			"speed": "28~29 js9~",
+			"onBlock": "-6~-5",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "u/b+4",
+			"hit": "m (TJ)",
+			"dmg": "18",
+			"speed": "17~20 js5~15",
+			"onBlock": "-8~-5",
+			"onHit": "+10~+13",
+			"onCounter": "+10~+13",
+			"notes": ""
+		},
+		{
+			"cmd": "u+4",
+			"hit": "m (TJ), (RFS)",
+			"dmg": "18",
+			"speed": "16~18 js9~",
+			"onBlock": "0~+2",
+			"onHit": "+11~+13g",
+			"onCounter": "+11~+13",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f+4",
+			"hit": "h (TJ), (RFS)",
+			"dmg": "12",
+			"speed": "22~23 js1~",
+			"onBlock": "-2~-1",
+			"onHit": "+4~+5",
+			"onCounter": "+4~+5",
+			"notes": ""
+		},
+		{
+			"cmd": "u/f, n+4",
+			"hit": "m",
+			"dmg": "25",
+			"speed": "23(29,35) js9~33",
+			"onBlock": "-11(-13)",
+			"onHit": "Launch (JG?)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "WS+1",
+			"hit": "m",
+			"dmg": "12",
+			"speed": "10~11",
+			"onBlock": "-4~-3",
+			"onHit": "+7~+8",
+			"onCounter": "+7~+8",
+			"notes": ""
+		},
+		{
+			"cmd": "WS+2",
+			"hit": "m",
+			"dmg": "15",
+			"speed": "15~16",
+			"onBlock": "-7~-6",
+			"onHit": "+4~+5",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "WS+3",
+			"hit": "m",
+			"dmg": "20",
+			"speed": "14~18",
+			"onBlock": "-7~-3",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "WS+4",
+			"hit": "m",
+			"dmg": "12",
+			"speed": "11~12",
+			"onBlock": "-3~-2",
+			"onHit": "+8~+9",
+			"onCounter": "+8~+9",
+			"notes": ""
+		},
+		{
+			"cmd": "FC+1",
+			"hit": "Sm (TC)",
+			"dmg": "5",
+			"speed": "10s cs1~",
+			"onBlock": "-5",
+			"onHit": "+6",
+			"onCounter": "+6",
+			"notes": ""
+		},
+		{
+			"cmd": "FC+2",
+			"hit": "Sm (TC)",
+			"dmg": "8",
+			"speed": "11s cs1~",
+			"onBlock": "-4",
+			"onHit": "+7",
+			"onCounter": "+7",
+			"notes": ""
+		},
+		{
+			"cmd": "FC+3",
+			"hit": "l (TC)",
+			"dmg": "12",
+			"speed": "16s cs1~",
+			"onBlock": "-14",
+			"onHit": "-3",
+			"onCounter": "-3",
+			"notes": ""
+		},
+		{
+			"cmd": "FC+4",
+			"hit": "l (TC)",
+			"dmg": "10",
+			"speed": "12s cs1~",
+			"onBlock": "-15",
+			"onHit": "-4",
+			"onCounter": "-4",
+			"notes": ""
+		},
+		{
+			"cmd": "SS+1",
+			"hit": "h",
+			"dmg": "7",
+			"speed": "10(11~)",
+			"onBlock": "+1",
+			"onHit": "+8",
+			"onCounter": "+8",
+			"notes": ""
+		},
+		{
+			"cmd": "SS+2",
+			"hit": "h",
+			"dmg": "9",
+			"speed": "10(11~)",
+			"onBlock": "0",
+			"onHit": "+8",
+			"onCounter": "+9",
+			"notes": ""
+		},
+		{
+			"cmd": "SS+3",
+			"hit": "m",
+			"dmg": "15",
+			"speed": "18~19 (28~)",
+			"onBlock": "-12~-11",
+			"onHit": "-1~0",
+			"onCounter": "FS (+5~+6)",
+			"notes": ""
+		},
+		{
+			"cmd": "SS+4",
+			"hit": "l(RFF)",
+			"dmg": "18",
+			"speed": "19~20 (29~)",
+			"onBlock": "-13~-12",
+			"onHit": "+5~+6s",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "BT 1 or 2",
+			"hit": "h",
+			"dmg": "15",
+			"speed": "8",
+			"onBlock": "-8",
+			"onHit": "+3",
+			"onCounter": "+3",
+			"notes": ""
+		},
+		{
+			"cmd": "BT 3",
+			"hit": "h",
+			"dmg": "25",
+			"speed": "10",
+			"onBlock": "-8",
+			"onHit": "KND",
+			"onCounter": "KND",
+			"notes": ""
+		},
+		{
+			"cmd": "BT 4",
+			"hit": "m(RFF)",
+			"dmg": "20",
+			"speed": "14~16",
+			"onBlock": "-13~-11",
+			"onHit": "Launch (JG?)",
+			"onCounter": "Launch (JG?)",
+			"notes": ""
+		},
+		{
+			"cmd": "BT d+1 or 2",
+			"hit": "Sm",
+			"dmg": "10",
+			"speed": "10s cs1~",
+			"onBlock": "-2",
+			"onHit": "+9",
+			"onCounter": "+9",
+			"notes": ""
+		},
+		{
+			"cmd": "BT d+3 or 4",
+			"hit": "l",
+			"dmg": "12",
+			"speed": "10s cs1~",
+			"onBlock": "-11",
+			"onHit": "+3",
+			"onCounter": "+3",
+			"notes": ""
+		}
+	]
+}
+
