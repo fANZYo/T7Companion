@@ -17,16 +17,21 @@ const middleware = {
 		next();
 	},
 	checkCharExists: (req, res, next) => {
-		if (!config.characters.includes(req.params.charId)) {
+		const sanitizeStr = s => s.replace(' ', '').toLowerCase();
+
+		const charId = sanitizeStr(req.params.charId);
+
+		if (!config.characters.map(c => sanitizeStr(c)).includes(charId)) {
 			res.json({
 				error: `Could not find character: ${req.params.charId}`,
 			});
 		} else {
+			req.charId = charId;
 			next();
 		}
 	},
 	redisKeyGen: (req, res, next) => {
-		req.redisKey = `movelist:${req.params.charId}`;
+		req.redisKey = `movelist:${req.charId}`;
 
 		next();
 	},
@@ -35,7 +40,7 @@ const middleware = {
 			const { movelist } = reply ? { movelist: JSON.parse(reply) } : await req.app.locals.db
 				.collection(config.database.collection)
 				.findOne(
-					{ name: config.characters.find(c => c === req.params.charId.toLowerCase()) },
+					{ name: req.charId },
 				);
 
 			if (!reply) {
