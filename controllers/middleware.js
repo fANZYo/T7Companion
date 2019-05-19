@@ -17,11 +17,9 @@ const middleware = {
 		next();
 	},
 	checkCharExists: (req, res, next) => {
-		const sanitizeStr = s => s.replace(' ', '').toLowerCase();
+		const charId = config.characters.find(c => c === req.params.charId.toLowerCase());
 
-		const charId = sanitizeStr(req.params.charId);
-
-		if (!config.characters.map(c => sanitizeStr(c)).includes(charId)) {
+		if (!charId) {
 			res.json({
 				error: `Could not find character: ${req.params.charId}`,
 			});
