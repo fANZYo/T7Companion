@@ -57,7 +57,6 @@ Find all of Paul's punishable on hit moves
 /character/kazuya?lastHit=m&onHit=10,-4
 ```
 Find all of Kazuya's moves that end with a mid and are between +10 and -4 on block
-*NOTE: this will currently not list all the moves as the parsing of frame notation is not yet catering for move values containing a range*
 
 ## TODO
 
