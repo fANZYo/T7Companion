@@ -15,6 +15,7 @@ Simple Tekken 7 movelist querying API
 
 Base URL: `https://t7api.herokuapp.com`
 
+- `/character/list`
 - `/character/<character-name>`
 
 ## Parameters
@@ -42,6 +43,11 @@ Base URL: `https://t7api.herokuapp.com`
 - `special` -> `String` (matches to the `notes` property on the `move` object)
 
 ### Examples
+
+```
+/character/list
+```
+Return a list of all available characters
 
 ```
 /character/josie?cmd=df2
