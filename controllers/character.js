@@ -23,7 +23,9 @@ exports.filterMovelist = (req, res) => {
 
 	const amountOf = prop => amount => move => {
 		const amounts = amount.split(',');
-		return move[prop] >= Math.min(...amounts) && move[prop] <= Math.max(...amounts);
+
+		return parseInt(move[prop], 10) >= Math.min(...amounts)
+			&& parseInt(move[prop], 10) <= Math.max(...amounts);
 	};
 
 	const crushFilter = crush => move => {
