@@ -31,7 +31,12 @@ Base URL: `https://t7api.herokuapp.com`
 - `minusOnBlock` -> `Bool`
 - `minusOnHit` -> `Bool`
 - `minusOnCounter` -> `Bool`
+- `onBlock` -> `range -> min,max`
+- `onHit` -> `range -> min,max`
+- `onCounter` -> `range -> min,max`
 - `hit` -> `enum { 'h', 'm', 'l' }` (also accept comma separated list of values)
+- `firstHit` -> `enum { 'h', 'm', 'l' }`
+- `lastHit` -> `enum { 'h', 'm', 'l' }`
 - `speed` -> `range -> min,max`
 - `crush` -> `enum { 'TC', 'TJ' }` (elso accept comma separated list of values)
 - `special` -> `String` (matches to the `notes` property on the `move` object)
