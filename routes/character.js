@@ -10,11 +10,14 @@ const {
 // Controllers
 const {
 	index,
+	characterList,
 	commandSearch,
 	filterMovelist,
 } = require('../controllers/character');
 
 router.get('/', index);
+
+router.get('/list', characterList);
 
 router.get('/:charId', checkCharExists, redisKeyGen, getCharacterMovelist, commandSearch);
 

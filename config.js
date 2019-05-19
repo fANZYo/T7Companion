@@ -1,7 +1,8 @@
 module.exports = {
 	database: {
 		url: 'mongodb://localhost:27017/t7api',
-		collection: 'characters',
+		movelistCollection: 'characters',
+		listCollection: 'list',
 	},
 	redis: {
 		url: 'redis://localhost:6379',

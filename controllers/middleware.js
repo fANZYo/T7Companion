@@ -36,7 +36,7 @@ const middleware = {
 	getCharacterMovelist: (req, res, next) => {
 		req.app.locals.redis.get(req.redisKey, async (err, reply) => {
 			const { movelist } = reply ? { movelist: JSON.parse(reply) } : await req.app.locals.db
-				.collection(config.database.collection)
+				.collection(config.database.movelistCollection)
 				.findOne(
 					{ name: req.charId },
 				);

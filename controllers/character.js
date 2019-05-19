@@ -1,7 +1,22 @@
 const FuzzySearch = require('fuzzy-search');
+const config = require('../config');
 
 exports.index = (req, res) => {
 	res.send('Please provide a character (e.g. /character/josie)');
+};
+
+exports.characterList = (req, res) => {
+	req.app.locals.redis.get('list:all', async (err, reply) => {
+		const temp = await req.app.locals.db
+			.collection(config.database.listCollection)
+			.find().toArray();
+
+		if (!reply) {
+			req.app.locals.redis.set('list:all', JSON.stringify(temp));
+		}
+
+		res.json(temp);
+	});
 };
 
 exports.commandSearch = (req, res, next) => {
