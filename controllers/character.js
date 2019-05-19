@@ -21,9 +21,9 @@ exports.filterMovelist = (req, res) => {
 		return levels.some(l => RegExp(`\\b${l}\\b`, 'i').test(move.hit));
 	};
 
-	const speedFilter = speed => move => {
-		const speeds = speed.split(',');
-		return move.speed >= Math.min(...speeds) && move.speed <= Math.max(...speeds);
+	const amountOf = prop => amount => move => {
+		const amounts = amount.split(',');
+		return move[prop] >= Math.min(...amounts) && move[prop] <= Math.max(...amounts);
 	};
 
 	const crushFilter = crush => move => {
@@ -40,11 +40,15 @@ exports.filterMovelist = (req, res) => {
 
 	const minusOn = prop => () => move => move[prop].indexOf('-') > -1;
 
+	const lastHit = end => move => move.hit.indexOf(end) === move.hit.length - 1;
+
+	const firstHit = first => move => move.hit.indexOf(first) === 0;
+
 	// These props map to query strings (case insensitive)
 	const filterOptions = {
 		special: specialPropsFilter,
 		crush: crushFilter,
-		speed: speedFilter,
+		speed: amountOf('speed'),
 		hit: hitLevelFilter,
 		plusonblock: plusOn('onBlock'),
 		plusonhit: plusOn('onHit'),
@@ -52,13 +56,20 @@ exports.filterMovelist = (req, res) => {
 		minusonblock: minusOn('onBlock'),
 		minusonhit: minusOn('onHit'),
 		minusoncounter: minusOn('onCounter'),
+		onblock: amountOf('onBlock'),
+		onhit: amountOf('onHit'),
+		oncounter: amountOf('onCounter'),
+		lasthit: lastHit,
+		firsthit: firstHit,
 	};
 
 	const filters = Object.keys(filterOptions)
 		.filter(f => f in req.query)
 		.map(f => {
 			const temp = {};
-			temp[f] = req.query[f];
+			if (req.query[f]) {
+				temp[f] = req.query[f];
+			}
 			return temp;
 		})
 		.reduce((obj, cur) => Object.assign(obj, cur), {});
