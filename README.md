@@ -71,7 +71,7 @@ Find all of Kazuya's moves that end with a mid and are between +10 and -4 on blo
 ```
 /character/kazumi?speed=9,13&onBlock=10,-3&sort=block,hit
 ```
-Sort Kazumi's quickest abusable pokes by onBlock and onHit frames (onBlock frames have precedence)
+Sort Kazumi's quickest potentially abusable pokes by onBlock and onHit frames (onBlock frames have precedence)
 
 ## TODO
 
