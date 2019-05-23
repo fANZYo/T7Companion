@@ -38,7 +38,7 @@ MongoClient.connect(dbUrl, { useNewUrlParser: true }, (err, client) => {
 	app.locals.db = client.db(client.s.options.dbName);
 	app.locals.redis = redis.createClient(redisUrl, { no_ready_check: true });
 
-	const port = process.env.PORT || 5000;
+	const port = process.env.PORT || 5001;
 	app.listen(port, () => {
 		console.log(`Server running on port: ${port}`);
 	});

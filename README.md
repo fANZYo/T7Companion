@@ -42,6 +42,10 @@ Base URL: `https://t7api.herokuapp.com`
 - `crush` -> `enum { 'TC', 'TJ' }` (elso accept comma separated list of values)
 - `special` -> `String` (matches to the `notes` property on the `move` object)
 
+#### `<sort>`
+
+- `sort` -> `enum { 'block', 'hit', 'counter' }` (also accept comma separated list of values)
+
 ### Examples
 
 ```
@@ -63,6 +67,11 @@ Find all of Paul's punishable on hit moves
 /character/kazuya?lastHit=m&onHit=10,-4
 ```
 Find all of Kazuya's moves that end with a mid and are between +10 and -4 on block
+
+```
+/character/kazumi?speed=9,13&onBlock=10,-3&sort=block,hit
+```
+Sort Kazumi's quickest abusable pokes by onBlock and onHit frames (onBlock frames have precedence)
 
 ## TODO
 

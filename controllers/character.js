@@ -15,7 +15,10 @@ exports.characterList = (req, res) => {
 			req.app.locals.redis.set('list:all', JSON.stringify(temp));
 		}
 
-		res.json(temp);
+		res.set({
+			'Access-Control-Allow-Origin': 'http://frankenstein.local.com:3002',
+		})
+			.json(temp);
 	});
 };
 
@@ -24,7 +27,9 @@ exports.commandSearch = (req, res, next) => {
 		const searcher = new FuzzySearch(req.movelist, ['cmd'], { sort: true });
 		const matchedMovelist = searcher.search(req.query.cmd);
 
-		res.json(matchedMovelist);
+		res.set({
+			'Access-Control-Allow-Origin': 'http://frankenstein.local.com:3002',
+		}).json(req.query.exact === true ? matchedMovelist[0] : matchedMovelist);
 	} else {
 		next('route');
 	}
@@ -61,6 +66,9 @@ exports.filterMovelist = (req, res) => {
 
 	const firstHit = first => move => move.hit.indexOf(first) === 0;
 
+	const sortBy = prop => (a, b) =>
+		Math.abs(parseInt(a[prop], 10)) - Math.abs(parseInt(b[prop], 10));
+
 	// These props map to query strings (case insensitive)
 	const filterOptions = {
 		special: specialPropsFilter,
@@ -80,6 +88,12 @@ exports.filterMovelist = (req, res) => {
 		firsthit: firstHit,
 	};
 
+	const sortOptions = {
+		block: sortBy('onBlock'),
+		hit: sortBy('onHit'),
+		counter: sortBy('onCounter'),
+	};
+
 	const filters = Object.keys(filterOptions)
 		.filter(f => f in req.query)
 		.map(f => {
@@ -91,11 +105,23 @@ exports.filterMovelist = (req, res) => {
 		})
 		.reduce((obj, cur) => Object.assign(obj, cur), {});
 
-	let { movelist: movelistCpy } = req;
+	const { movelist } = req;
 
-	Object.entries(filters).forEach(([filter, value]) => {
-		movelistCpy = movelistCpy.filter(filterOptions[filter](value));
-	});
+	const movelistCpy = Object.entries(filters)
+		.reduce((list, [filter, value]) =>
+			list.filter(filterOptions[filter](value)), movelist);
 
-	res.json(movelistCpy);
+	const sorts = req.query.sort && req.query.sort
+		.split(',')
+		.filter(s => s in sortOptions)
+		.reverse();
+
+	if (sorts) {
+		sorts.forEach(s => movelistCpy.sort(sortOptions[s]));
+	}
+
+	res.set({
+		'Access-Control-Allow-Origin': 'http://frankenstein.local.com:3002',
+	})
+		.json(movelistCpy);
 };
