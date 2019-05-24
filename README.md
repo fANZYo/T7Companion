@@ -42,7 +42,7 @@ Base URL: `https://t7api.herokuapp.com`
 - `crush` -> `enum { 'TC', 'TJ' }` (also accept comma separated list of values)
 - `special` -> `String` (matches to the `notes` property on the `move` object)
 
-#### `<sort>`
+#### `sort`
 
 - `sort` -> `enum { 'block', 'hit', 'counter' }` (also accept comma separated list of values)
 
