@@ -39,7 +39,7 @@ Base URL: `https://t7api.herokuapp.com`
 - `firstHit` -> `enum { 'h', 'm', 'l' }`
 - `lastHit` -> `enum { 'h', 'm', 'l' }`
 - `speed` -> `range -> min,max`
-- `crush` -> `enum { 'TC', 'TJ' }` (elso accept comma separated list of values)
+- `crush` -> `enum { 'TC', 'TJ' }` (also accept comma separated list of values)
 - `special` -> `String` (matches to the `notes` property on the `move` object)
 
 #### `<sort>`
