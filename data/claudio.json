@@ -822,26 +822,6 @@
 			"notes": ""
 		},
 		{
-			"cmd": "2",
-			"hit": "h",
-			"dmg": "10",
-			"speed": "12",
-			"onBlock": "-3",
-			"onHit": "+3",
-			"onCounter": "+3",
-			"notes": ""
-		},
-		{
-			"cmd": "3",
-			"hit": "h",
-			"dmg": "21",
-			"speed": "12",
-			"onBlock": "-6",
-			"onHit": "-1",
-			"onCounter": "JG",
-			"notes": ""
-		},
-		{
 			"cmd": "4",
 			"hit": "h",
 			"dmg": "",
@@ -860,16 +840,6 @@
 			"onHit": "KND",
 			"onCounter": "KND",
 			"notes": "Tail spin, Homing"
-		},
-		{
-			"cmd": "b+2",
-			"hit": "h (STB)",
-			"dmg": "30",
-			"speed": "14~15",
-			"onBlock": "-9~-8",
-			"onHit": "KND",
-			"onCounter": "KND",
-			"notes": ""
 		},
 		{
 			"cmd": "b+3",
@@ -912,26 +882,6 @@
 			"notes": ""
 		},
 		{
-			"cmd": "f+3",
-			"hit": "h (TJ)",
-			"dmg": "27",
-			"speed": "18 js9~",
-			"onBlock": "-5",
-			"onHit": "+15k",
-			"onCounter": "Tail spin",
-			"notes": "Homing, Tail spin"
-		},
-		{
-			"cmd": "f+4",
-			"hit": "m",
-			"dmg": "23",
-			"speed": "22~23",
-			"onBlock": "+4s",
-			"onHit": "+4s",
-			"onCounter": "KND",
-			"notes": ""
-		},
-		{
 			"cmd": "f, F+1",
 			"hit": "h",
 			"dmg": "9",
@@ -969,16 +919,6 @@
 			"onBlock": "-5",
 			"onHit": "KND",
 			"onCounter": "KND",
-			"notes": ""
-		},
-		{
-			"cmd": "d+1",
-			"hit": "m",
-			"dmg": "16",
-			"speed": "17~18",
-			"onBlock": "-8~-7",
-			"onHit": "+2~+3",
-			"onCounter": "+2~+3",
 			"notes": ""
 		},
 		{
@@ -1292,16 +1232,6 @@
 			"notes": ""
 		},
 		{
-			"cmd": "SS+4",
-			"hit": "l",
-			"dmg": "20",
-			"speed": "20~21s (29~)",
-			"onBlock": "-12~-11",
-			"onHit": "+3~+4s",
-			"onCounter": "KND",
-			"notes": ""
-		},
-		{
 			"cmd": "BT 1 or 2",
 			"hit": "h",
 			"dmg": "20",
@@ -1343,4 +1273,3 @@
 		}
 	]
 }
-

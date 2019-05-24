@@ -1042,16 +1042,6 @@
 			"notes": ""
 		},
 		{
-			"cmd": "2",
-			"hit": "Sm",
-			"dmg": "13",
-			"speed": "15",
-			"onBlock": "-13",
-			"onHit": "-4",
-			"onCounter": "-4",
-			"notes": ""
-		},
-		{
 			"cmd": "3",
 			"hit": "h",
 			"dmg": "10",
@@ -1102,16 +1092,6 @@
 			"notes": ""
 		},
 		{
-			"cmd": "f+4",
-			"hit": "m",
-			"dmg": "21",
-			"speed": "19",
-			"onBlock": "-13",
-			"onHit": "KND",
-			"onCounter": "CS",
-			"notes": ""
-		},
-		{
 			"cmd": "d/f+1",
 			"hit": "m",
 			"dmg": "10",
@@ -1130,26 +1110,6 @@
 			"onHit": "+14kg",
 			"onCounter": "KND",
 			"notes": "Tail spin, Homing"
-		},
-		{
-			"cmd": "d/f+3",
-			"hit": "l",
-			"dmg": "11",
-			"speed": "15",
-			"onBlock": "-13",
-			"onHit": "-2",
-			"onCounter": "-2",
-			"notes": ""
-		},
-		{
-			"cmd": "d/f+4",
-			"hit": "m",
-			"dmg": "15",
-			"speed": "14",
-			"onBlock": "-7",
-			"onHit": "+4",
-			"onCounter": "+4",
-			"notes": ""
 		},
 		{
 			"cmd": "d/b or d+1 or FC+d/b or d+1",
@@ -1202,16 +1162,6 @@
 			"notes": ""
 		},
 		{
-			"cmd": "b+2",
-			"hit": "m",
-			"dmg": "23",
-			"speed": "24",
-			"onBlock": "+2",
-			"onHit": "KND",
-			"onCounter": "KND",
-			"notes": ""
-		},
-		{
 			"cmd": "b+3",
 			"hit": "m",
 			"dmg": "11",
@@ -1219,16 +1169,6 @@
 			"onBlock": "-9",
 			"onHit": "+2",
 			"onCounter": "+2",
-			"notes": ""
-		},
-		{
-			"cmd": "b+4",
-			"hit": "l",
-			"dmg": "10",
-			"speed": "19",
-			"onBlock": "-13",
-			"onHit": "-4",
-			"onCounter": "-2",
 			"notes": ""
 		},
 		{
@@ -1262,36 +1202,6 @@
 			"notes": ""
 		},
 		{
-			"cmd": "WS+2",
-			"hit": "m",
-			"dmg": "10",
-			"speed": "18",
-			"onBlock": "-14",
-			"onHit": "-3",
-			"onCounter": "-3",
-			"notes": ""
-		},
-		{
-			"cmd": "WS+3",
-			"hit": "h",
-			"dmg": "14",
-			"speed": "15~16",
-			"onBlock": "-8~-7",
-			"onHit": "Tail spin",
-			"onCounter": "Tail spin",
-			"notes": "Tail spin"
-		},
-		{
-			"cmd": "WS+4",
-			"hit": "m",
-			"dmg": "18",
-			"speed": "11",
-			"onBlock": "-5",
-			"onHit": "+6",
-			"onCounter": "+6",
-			"notes": ""
-		},
-		{
 			"cmd": "SS+1",
 			"hit": "h",
 			"dmg": "7",
@@ -1309,16 +1219,6 @@
 			"onBlock": "-13",
 			"onHit": "-4",
 			"onCounter": "-4",
-			"notes": ""
-		},
-		{
-			"cmd": "SS+3",
-			"hit": "l",
-			"dmg": "18",
-			"speed": "19(28~)",
-			"onBlock": "-12",
-			"onHit": "+6",
-			"onCounter": "KND",
 			"notes": ""
 		},
 		{
@@ -1373,4 +1273,3 @@
 		}
 	]
 }
-

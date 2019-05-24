@@ -2224,28 +2224,6 @@
 			"FIELD9": ""
 		},
 		{
-			"cmd": "1",
-			"hit": "h",
-			"dmg": "7",
-			"speed": "10",
-			"onBlock": "+1",
-			"onHit": "+8",
-			"onCounter": "+8",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
-			"cmd": "2",
-			"hit": "h",
-			"dmg": "12",
-			"speed": "12",
-			"onBlock": "-1",
-			"onHit": "+5",
-			"onCounter": "+5",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
 			"cmd": "3 (to LWV)",
 			"hit": "(LWV)",
 			"dmg": "",
@@ -2279,17 +2257,6 @@
 			"FIELD9": ""
 		},
 		{
-			"cmd": "f+2",
-			"hit": "m?",
-			"dmg": "11",
-			"speed": "21~22",
-			"onBlock": "-6~-5",
-			"onHit": "+5~+6",
-			"onCounter": "+5~+6",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
 			"cmd": "f+3 (to DCK)",
 			"hit": "(Special) (TC)(DCK)",
 			"dmg": "",
@@ -2312,28 +2279,6 @@
 			"FIELD9": ""
 		},
 		{
-			"cmd": "d/f+1",
-			"hit": "m",
-			"dmg": "12",
-			"speed": "13~14",
-			"onBlock": "-2~-1",
-			"onHit": "+5~+6",
-			"onCounter": "+5~+6",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
-			"cmd": "d/f+2",
-			"hit": "m",
-			"dmg": "18",
-			"speed": "16~17",
-			"onBlock": "-11~-10",
-			"onHit": "+6~+7",
-			"onCounter": "CS",
-			"notes": "Homing",
-			"FIELD9": ""
-		},
-		{
 			"cmd": "d/f+3 (to DCK)",
 			"hit": "(Special) (TC)(DCK)",
 			"dmg": "",
@@ -2352,28 +2297,6 @@
 			"onBlock": "",
 			"onHit": "",
 			"onCounter": "",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
-			"cmd": "d+1",
-			"hit": "l (TC)",
-			"dmg": "14",
-			"speed": "16s cs6~",
-			"onBlock": "-13",
-			"onHit": "0",
-			"onCounter": "0",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
-			"cmd": "d+2",
-			"hit": "l (TC)",
-			"dmg": "13",
-			"speed": "17 cs6~",
-			"onBlock": "-18",
-			"onHit": "-5",
-			"onCounter": "-5",
 			"notes": "",
 			"FIELD9": ""
 		},
@@ -2422,17 +2345,6 @@
 			"FIELD9": ""
 		},
 		{
-			"cmd": "d/b+3",
-			"hit": "l",
-			"dmg": "10",
-			"speed": "16",
-			"onBlock": "-15",
-			"onHit": "+1",
-			"onCounter": "+1",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
 			"cmd": "d/b+4 (to SWY)",
 			"hit": "(Special) (TC)(SWY)",
 			"dmg": "",
@@ -2440,28 +2352,6 @@
 			"onBlock": "",
 			"onHit": "",
 			"onCounter": "",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
-			"cmd": "b+1",
-			"hit": "h",
-			"dmg": "17",
-			"speed": "13~14",
-			"onBlock": "-14~-13",
-			"onHit": "+2~+3",
-			"onCounter": "CS",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
-			"cmd": "b+2",
-			"hit": "m?",
-			"dmg": "20",
-			"speed": "17~18",
-			"onBlock": "-13~-12",
-			"onHit": "CS",
-			"onCounter": "CS",
 			"notes": "",
 			"FIELD9": ""
 		},
@@ -2499,17 +2389,6 @@
 			"FIELD9": ""
 		},
 		{
-			"cmd": "u/f+1",
-			"hit": "m (TJ)",
-			"dmg": "18",
-			"speed": "19~21 js9~",
-			"onBlock": "-6~-4",
-			"onHit": "+5~+7",
-			"onCounter": "+5~+7",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
 			"cmd": "u/b+2",
 			"hit": "h",
 			"dmg": "17",
@@ -2521,17 +2400,6 @@
 			"FIELD9": ""
 		},
 		{
-			"cmd": "u or u/f+2",
-			"hit": "m (TJ)",
-			"dmg": "20",
-			"speed": "22~25 js9~",
-			"onBlock": "-14~-11",
-			"onHit": "KND",
-			"onCounter": "KND",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
 			"cmd": "u/b+3 (Cancel)",
 			"hit": "(Special)",
 			"dmg": "",
@@ -2539,17 +2407,6 @@
 			"onBlock": "",
 			"onHit": "",
 			"onCounter": "",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
-			"cmd": "u or u/f+3",
-			"hit": "l (TJ)",
-			"dmg": "20",
-			"speed": "36~37 js9~35",
-			"onBlock": "-12~-11",
-			"onHit": "+9~+10",
-			"onCounter": "+9~+10",
 			"notes": "",
 			"FIELD9": ""
 		},
@@ -2571,28 +2428,6 @@
 			"speed": "23~24",
 			"onBlock": "-14~-13",
 			"onHit": "Launch (JG?)",
-			"onCounter": "Launch (JG?)",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
-			"cmd": "WS+1",
-			"hit": "m",
-			"dmg": "12",
-			"speed": "11~12",
-			"onBlock": "-3~-2",
-			"onHit": "+3~+4",
-			"onCounter": "+8~+9",
-			"notes": "",
-			"FIELD9": ""
-		},
-		{
-			"cmd": "WS+2",
-			"hit": "m",
-			"dmg": "17",
-			"speed": "14~16",
-			"onBlock": "-7~-5",
-			"onHit": "+4~+6a",
 			"onCounter": "Launch (JG?)",
 			"notes": "",
 			"FIELD9": ""
@@ -2764,4 +2599,3 @@
 		}
 	]
 }
-

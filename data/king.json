@@ -1442,16 +1442,6 @@
 			"notes": ""
 		},
 		{
-			"cmd": "b+4",
-			"hit": "h",
-			"dmg": "25",
-			"speed": "17",
-			"onBlock": "+2",
-			"onHit": "KND",
-			"onCounter": "KND",
-			"notes": "Wall bounce"
-		},
-		{
 			"cmd": "f+1",
 			"hit": "h",
 			"dmg": "9",
@@ -1569,16 +1559,6 @@
 			"onBlock": "-13",
 			"onHit": "-2",
 			"onCounter": "-2",
-			"notes": ""
-		},
-		{
-			"cmd": "d/b or d+1",
-			"hit": "Sm (TC)",
-			"dmg": "6",
-			"speed": "10 RC",
-			"onBlock": "-5",
-			"onHit": "+6",
-			"onCounter": "+6",
 			"notes": ""
 		},
 		{
@@ -1852,16 +1832,6 @@
 			"notes": ""
 		},
 		{
-			"cmd": "SS+2",
-			"hit": "h",
-			"dmg": "25",
-			"speed": "19~21 (28~)",
-			"onBlock": "-5~-3",
-			"onHit": "KND",
-			"onCounter": "KND",
-			"notes": "Tail spin"
-		},
-		{
 			"cmd": "SS+3",
 			"hit": "h",
 			"dmg": "33",
@@ -1889,16 +1859,6 @@
 			"onBlock": "-8",
 			"onHit": "+3",
 			"onCounter": "+3",
-			"notes": ""
-		},
-		{
-			"cmd": "BT 3",
-			"hit": "m",
-			"dmg": "18",
-			"speed": "13",
-			"onBlock": "-13",
-			"onHit": "+9",
-			"onCounter": "CS",
 			"notes": ""
 		},
 		{
@@ -1943,4 +1903,3 @@
 		}
 	]
 }
-
