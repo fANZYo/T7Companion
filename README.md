@@ -48,30 +48,30 @@ Base URL: `https://t7api.herokuapp.com`
 
 ### Examples
 
-```javascipt
+```
 /character/list
-// Return a list of all available characters
 ```
+Return a list of all available characters
 
-```javascipt
+```
 /character/josie?cmd=df2
-// Fuzzy search Josie's movelist for "df2"
 ```
+Fuzzy search Josie's movelist for "df2"
 
-```javascipt
+```
 /character/paul?minusOnHit=true
-// Find all of Paul's punishable or 'loss of turn' on hit moves
 ```
+Find all of Paul's punishable or 'loss of turn' on hit moves
 
-```javascipt
+```
 /character/kazuya?lastHit=m&onHit=10,-4
-// Find all of Kazuya's moves that end with a mid and are between +10 and -4 on block
 ```
+Find all of Kazuya's moves that end with a mid and are between +10 and -4 on block
 
-```javascipt
-/character/kazumi?speed=9,13&onBlock=10,-3&sort=block,hit
-// Sort Kazumi's quickest potentially abusable pokes by onBlock and onHit frames (onBlock frames have precedence)
 ```
+/character/kazumi?speed=9,13&onBlock=10,-3&sort=block,hit
+```
+Sort Kazumi's quickest potentially abusable pokes by onBlock and onHit frames (onBlock frames have precedence)
 
 ## TODO
 
