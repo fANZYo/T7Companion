@@ -69,8 +69,11 @@ exports.filterMovelist = (req, res) => {
 	const sortBy = prop => (a, b) =>
 		Math.abs(parseInt(a[prop], 10)) - Math.abs(parseInt(b[prop], 10));
 
+	const singleHitFilter = () => move => move.hit.split(',').length === 1;
+
 	// These props map to query strings (case insensitive)
 	const filterOptions = {
+		singlehit: singleHitFilter,
 		special: specialPropsFilter,
 		crush: crushFilter,
 		speed: amountOf('speed'),
@@ -89,6 +92,7 @@ exports.filterMovelist = (req, res) => {
 	};
 
 	const sortOptions = {
+		speed: sortBy('speed'),
 		block: sortBy('onBlock'),
 		hit: sortBy('onHit'),
 		counter: sortBy('onCounter'),
