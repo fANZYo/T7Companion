@@ -4,7 +4,6 @@ const redis = require('redis');
 
 const boolParser = require('express-query-boolean');
 const {
-	logRequest,
 	lowerQuery,
 } = require('./controllers/middleware');
 
@@ -17,7 +16,6 @@ const app = express();
 
 // Middleware
 app.use(boolParser());
-app.use(logRequest);
 app.use(lowerQuery);
 
 // Routes
