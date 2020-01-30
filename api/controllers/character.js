@@ -7,7 +7,7 @@ exports.index = (req, res) => {
 
 exports.characterList = (req, res) => {
 	req.app.locals.redis.get('list:all', async (err, reply) => {
-		const temp = await req.app.locals.db
+		const temp = JSON.parse(reply) || await req.app.locals.db
 			.collection(config.database.listCollection)
 			.find().toArray();
 

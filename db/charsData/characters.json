@@ -1,0 +1,354 @@
+[
+	{
+		"name": "akuma",
+		"label": "Akuma",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "alisa",
+		"label": "Alisa",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "anna",
+		"label": "Anna",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "armorking",
+		"label": "Armor King",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "asuka",
+		"label": "Asuka",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "bob",
+		"label": "Bob",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "bryan",
+		"label": "Bryan",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "claudio",
+		"label": "Claudio",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "deviljin",
+		"label": "Devil Jin",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "dragunov",
+		"label": "Dragunov",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "eddy",
+		"label": "Eddy",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "eliza",
+		"label": "Eliza",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "feng",
+		"label": "Feng",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "geese",
+		"label": "Geese",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "gigas",
+		"label": "Gigas",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "heihachi",
+		"label": "Heihachi",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "hwoarang",
+		"label": "Hwoarang",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "jack7",
+		"label": "Jack 7",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "jin",
+		"label": "Jin",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "josie",
+		"label": "Josie",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "julia",
+		"label": "Julia",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "katarina",
+		"label": "Katarina",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "kazumi",
+		"label": "Kazumi",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "kazuya",
+		"label": "Kazuya",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "king",
+		"label": "King",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "kuma",
+		"label": "Kuma",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "lars",
+		"label": "Lars",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "law",
+		"label": "Law",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "lee",
+		"label": "Lee",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "lei",
+		"label": "Lei",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "leo",
+		"label": "Leo",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "lili",
+		"label": "Lili",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "luckychloe",
+		"label": "Lucky Chloe",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "marduk",
+		"label": "Marduk",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "masterraven",
+		"label": "Master Raven",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "miguel",
+		"label": "Miguel",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "negan",
+		"label": "Negan",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "nina",
+		"label": "Nina",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "noctis",
+		"label": "Noctis",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "paul",
+		"label": "Paul",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "shaheen",
+		"label": "Shaheen",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "steve",
+		"label": "Steve",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "xiaoyu",
+		"label": "Xiaoyu",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	},
+	{
+		"name": "yoshimitsu",
+		"label": "Yoshimitsu",
+		"img": {
+			"url": "",
+			"alt": ""
+		}
+	}
+]
