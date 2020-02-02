@@ -11,7 +11,6 @@ services:
          - "3050:80"
    api:
       depends_on:
-         - db
          - pg
          - redis
       build:
@@ -20,7 +19,6 @@ services:
       ports:
          - "5000:5000"
       environment:
-         - MONGODB_URI=db
          - PGUSER=postgres
          - PGHOST=pg
          - PGDATABASE=t7api
@@ -29,16 +27,6 @@ services:
       volumes:
          - /app/node_modules
          - ./api:/app
-   db:
-      build:
-         dockerfile: Dockerfile.dev
-         context: ./db
-      ports:
-         - "27017:27017"
-      environment:
-         - MONGO_INITDB_DATABASE=t7api
-      volumes:
-         - ./db/data:/data/db
    pg:
       build:
          dockerfile: Dockerfile.dev

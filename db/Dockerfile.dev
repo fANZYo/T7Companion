@@ -1,5 +1,0 @@
-FROM mongo:latest
-WORKDIR /docker-entrypoint-initdb.d
-COPY ./characters.json ./characters.json
-COPY ./movelist.json ./movelist.json
-COPY ./init-mongo.sh ./init-mongo.sh
