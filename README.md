@@ -14,8 +14,8 @@ Simple Tekken 7 movelist querying API
 ## Setup
 
 After cloning the repo and assuming you have a working docker install on your machine, run:
-```
-docker-compose up
+```bash
+$ docker-compose up
 ```
 
 ## Endpoints
