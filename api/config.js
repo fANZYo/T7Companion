@@ -1,7 +1,7 @@
 module.exports = {
 	database: {
-		movelistCollection: 'movelist',
-		listCollection: 'characters',
+		movelistTable: 'movelist',
+		listTable: 'characters',
 	},
 	characters: [
 		'akuma',

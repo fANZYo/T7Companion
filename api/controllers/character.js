@@ -7,11 +7,15 @@ exports.index = (req, res) => {
 
 exports.characterList = (req, res) => {
 	req.app.locals.redis.get('list:all', async (err, reply) => {
-		const temp = JSON.parse(reply) || await req.app.locals.db
-			.collection(config.database.listCollection)
-			.find().toArray();
+		const { rows: temp } = reply
+			? { rows: JSON.parse(reply) }
+			: await req.app.locals.pg
+				.query(`
+					SELECT *
+					FROM ${config.database.listTable}
+				`);
 
-		if (!reply) {
+		if (!reply && temp) {
 			req.app.locals.redis.set('list:all', JSON.stringify(temp));
 		}
 
@@ -78,24 +82,24 @@ exports.filterMovelist = (req, res) => {
 		crush: crushFilter,
 		speed: amountOf('speed'),
 		hit: hitLevelFilter,
-		plusonblock: plusOn('onBlock'),
-		plusonhit: plusOn('onHit'),
-		plusoncounter: plusOn('onCounter'),
-		minusonblock: minusOn('onBlock'),
-		minusonhit: minusOn('onHit'),
-		minusoncounter: minusOn('onCounter'),
-		onblock: amountOf('onBlock'),
-		onhit: amountOf('onHit'),
-		oncounter: amountOf('onCounter'),
+		plusonblock: plusOn('on_block'),
+		plusonhit: plusOn('on_hit'),
+		plusoncounter: plusOn('on_counter'),
+		minusonblock: minusOn('on_block'),
+		minusonhit: minusOn('on_hit'),
+		minusoncounter: minusOn('on_counter'),
+		onblock: amountOf('on_block'),
+		onhit: amountOf('on_hit'),
+		oncounter: amountOf('on_counter'),
 		lasthit: lastHit,
 		firsthit: firstHit,
 	};
 
 	const sortOptions = {
 		speed: sortBy('speed'),
-		block: sortBy('onBlock'),
-		hit: sortBy('onHit'),
-		counter: sortBy('onCounter'),
+		block: sortBy('on_block'),
+		hit: sortBy('on_hit'),
+		counter: sortBy('on_counter'),
 	};
 
 	const filters = Object.keys(filterOptions)

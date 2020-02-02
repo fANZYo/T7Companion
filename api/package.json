@@ -1,7 +1,7 @@
 {
 	"name": "T7api",
 	"version": "1.0.0",
-	"description": "",
+	"description": "T7api helps players with everything frame related",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -23,7 +23,7 @@
 		"express": "^4.17.1",
 		"express-query-boolean": "^2.0.0",
 		"fuzzy-search": "^3.1.0",
-		"mongodb": "^3.5.2",
+		"pg": "^7.18.1",
 		"redis": "^2.8.0"
 	},
 	"devDependencies": {

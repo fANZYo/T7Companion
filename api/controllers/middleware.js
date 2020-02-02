@@ -31,13 +31,16 @@ const middleware = {
 	},
 	getCharacterMovelist: (req, res, next) => {
 		req.app.locals.redis.get(req.redisKey, async (err, reply) => {
-			const { movelist } = reply ? { movelist: JSON.parse(reply) } : await req.app.locals.db
-				.collection(config.database.movelistCollection)
-				.findOne(
-					{ name: req.charId },
-				);
+			const { rows: movelist } = reply
+				? { rows: JSON.parse(reply) }
+				: await req.app.locals.pg
+					.query(`
+						SELECT *
+						FROM ${config.database.movelistTable}
+						WHERE name = '${req.charId}'
+					`);
 
-			if (!reply) {
+			if (!reply && movelist) {
 				req.app.locals.redis.set(req.redisKey, JSON.stringify(movelist));
 			}
 

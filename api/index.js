@@ -1,6 +1,13 @@
 const express = require('express');
-const { MongoClient } = require('mongodb');
+const { Pool } = require('pg');
 const redis = require('redis');
+
+const pool = new Pool({
+	host: process.env.PGHOST,
+	port: process.env.PGPORT,
+	user: process.env.PGUSER,
+	database: process.env.PGDATABASE,
+});
 
 const boolParser = require('express-query-boolean');
 const {
@@ -22,16 +29,15 @@ app.use(lowerQuery);
 app.use('/', rootRoute);
 app.use('/character', characterRouter);
 
-const dbUrl = process.env.MONGODB_URI;
 const redisUrl = process.env.REDISCLOUD_URI;
 // eslint-disable-next-line consistent-return
-MongoClient.connect(`mongodb://${dbUrl}/t7api`, { useNewUrlParser: true }, (err, client) => {
+pool.connect((err, client) => {
 	if (err) {
-		console.log('Error while connecting to mongo database:', dbUrl);
+		console.log('Error while connecting to postgres database:', process.env.PGDATABASE);
 		return 1;
 	}
 
-	app.locals.db = client.db(client.s.options.dbName);
+	app.locals.pg = client;
 	app.locals.redis = redis.createClient(`redis://${redisUrl}`, { no_ready_check: true });
 
 	const port = process.env.PORT || 5000;
