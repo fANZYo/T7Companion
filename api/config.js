@@ -17,6 +17,7 @@ module.exports = {
 		'eddy',
 		'eliza',
 		'feng',
+		'ganryu',
 		'geese',
 		'gigas',
 		'heihachi',
@@ -35,6 +36,7 @@ module.exports = {
 		'lee',
 		'lei',
 		'leo',
+		'leroy',
 		'lili',
 		'luckychloe',
 		'marduk',
@@ -48,5 +50,6 @@ module.exports = {
 		'steve',
 		'xiaoyu',
 		'yoshimitsu',
+		'zafina',
 	],
 };
