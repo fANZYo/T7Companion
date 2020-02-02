@@ -1,4 +1,4 @@
-name,command,hit_level,damage,speed,on_block,on_hit,on_counter,notes,throw,common,gif
+name,command,hit_level,damage,speed,on_block,on_hit,on_counter,notes,is_throw,is_common,gif
 akuma,"in rage 1, 1, b or f+3, 2",m(Throw),55,16 pc1~,,Throw(KND),Throw(KND),Rage art,,,
 akuma,1 or f+1,h,7,10,+1,+8,+8,,,,
 akuma,"1, 1","h, h","7,7",10,-3,+4,+4,,,,

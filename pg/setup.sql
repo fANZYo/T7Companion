@@ -14,6 +14,8 @@ CREATE TABLE movelist (
 	on_hit VARCHAR(100),
 	on_counter VARCHAR(100),
 	notes VARCHAR(100),
+	is_throw BOOLEAN,
+	is_common BOOLEAN,
 	gif VARCHAR
 );
 
