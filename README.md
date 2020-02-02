@@ -4,12 +4,19 @@ Simple Tekken 7 movelist querying API
 
 ## Tech Stack
 
+- Docker
 - Node.js (ES6+)
-- MongoDB
+- Postgres
 - Redis
 - Heroku
 - ESLint *(Airbnb styleguide)*
-- CircleCI *(coming)*
+
+## Setup
+
+After cloning the repo and assuming you have a working docker install on your machine, run:
+```
+docker-compose up
+```
 
 ## Endpoints
 
