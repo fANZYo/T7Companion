@@ -4,10 +4,11 @@ Simple Tekken 7 movelist querying API
 
 ## Tech Stack
 
-- Docker
 - Node.js (ES6+)
+- Docker
 - Postgres
 - Redis
+- Nginx
 - Heroku
 - ESLint *(Airbnb styleguide)*
 
