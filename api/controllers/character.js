@@ -28,7 +28,7 @@ exports.characterList = (req, res) => {
 
 exports.commandSearch = (req, res, next) => {
 	if (req.query.cmd) {
-		const searcher = new FuzzySearch(req.movelist, ['cmd'], { sort: true });
+		const searcher = new FuzzySearch(req.movelist, ['command'], { sort: true });
 		const matchedMovelist = searcher.search(req.query.cmd);
 
 		res.set({
