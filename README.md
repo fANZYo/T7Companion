@@ -82,10 +82,3 @@ Find all of Kazuya's moves that end with a mid and are between +10 and -4 on blo
 ```
 Sort Kazumi's quickest potentially abusable pokes by onBlock and onHit frames (onBlock frames have precedence)
 
-## TODO
-
-- Add CI
-- Highlight safe moves
-- Move names
-- A gif of the move
-- A quiz mode, where you see a gif of the move and you have to input the correct frame (dis)advantage
