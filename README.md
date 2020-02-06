@@ -1,6 +1,6 @@
-# T7api
+# T7Companion
 
-Simple Tekken 7 movelist querying API
+Simple Tekken 7 movelist querying API *and more to come*
 
 ## Tech Stack
 
