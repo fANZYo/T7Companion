@@ -1,13 +1,9 @@
 const FuzzySearch = require('fuzzy-search');
 const config = require('../config');
 
-exports.index = (req, res) => {
-	res.send('Please provide a character (e.g. /character/josie)');
-};
-
 exports.characterList = (req, res) => {
 	req.app.locals.redis.get('list:all', async (err, reply) => {
-		const { rows: temp } = reply
+		const { rows } = reply
 			? { rows: JSON.parse(reply) }
 			: await req.app.locals.pg
 				.query(`
@@ -15,14 +11,14 @@ exports.characterList = (req, res) => {
 					FROM ${config.database.listTable}
 				`);
 
-		if (!reply && temp) {
-			req.app.locals.redis.set('list:all', JSON.stringify(temp));
+		if (!reply && rows) {
+			req.app.locals.redis.set('list:all', JSON.stringify(rows));
 		}
 
 		res.set({
-			'Access-Control-Allow-Origin': 'http://frankenstein.local.com:3002',
+			'Cache-Control': 'private, max-age=86400',
 		})
-			.json(temp);
+			.json(rows);
 	});
 };
 
@@ -32,7 +28,7 @@ exports.commandSearch = (req, res, next) => {
 		const matchedMovelist = searcher.search(req.query.cmd);
 
 		res.set({
-			'Access-Control-Allow-Origin': 'http://frankenstein.local.com:3002',
+			'Cache-Control': 'private, max-age=86400',
 		}).json(req.query.exact === true ? matchedMovelist[0] : matchedMovelist);
 	} else {
 		next('route');
@@ -129,7 +125,24 @@ exports.filterMovelist = (req, res) => {
 	}
 
 	res.set({
-		'Access-Control-Allow-Origin': 'http://frankenstein.local.com:3002',
+		'Cache-Control': 'private, max-age=86400',
 	})
 		.json(movelistCpy);
+};
+
+exports.commonMoves = (req, res) => {
+	req.app.locals.redis.get(`movelist:commons:${req.charId}`, async (err, reply) => {
+		const { rows } = reply
+			? { rows: JSON.parse(reply) }
+			: { rows: req.movelist.filter(move => move.is_common) };
+
+		if (!reply && rows) {
+			req.app.locals.redis.set(`movelist:commons:${req.charId}`, JSON.stringify(rows));
+		}
+
+		res.set({
+			'Cache-Control': 'private, max-age=86400',
+		})
+			.json(rows);
+	});
 };

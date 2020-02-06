@@ -9,18 +9,20 @@ const {
 
 // Controllers
 const {
-	index,
 	characterList,
 	commandSearch,
 	filterMovelist,
+	commonMoves,
 } = require('../controllers/character');
 
-router.get('/', index);
+router.get('/', characterList);
 
-router.get('/list', characterList);
+router.use('/:charId', checkCharExists, redisKeyGen, getCharacterMovelist);
 
-router.get('/:charId', checkCharExists, redisKeyGen, getCharacterMovelist, commandSearch);
+router.get('/:charId', commandSearch);
 
-router.get('/:charId', checkCharExists, redisKeyGen, getCharacterMovelist, filterMovelist);
+router.get('/:charId', filterMovelist);
+
+router.get('/:charId/commons', commonMoves);
 
 module.exports = router;

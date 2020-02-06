@@ -27,7 +27,7 @@ app.use(lowerQuery);
 
 // Routes
 app.use('/', rootRoute);
-app.use('/character', characterRouter);
+app.use('/characters', characterRouter);
 
 const redisUrl = process.env.REDISCLOUD_URI;
 // eslint-disable-next-line consistent-return
