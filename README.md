@@ -21,10 +21,11 @@ $ docker-compose up
 
 ## Endpoints
 
-Base URL: `https://t7api.herokuapp.com`
+Base URL: `https://t7api.herokuapp.com` **now outdated**
 
-- `/character/list`
-- `/character/<character-name>`
+- `/characters/`
+- `/characters/<character-name>`
+- `/characters/<character-name>/commons`
 
 ## Parameters
 
@@ -57,27 +58,27 @@ Base URL: `https://t7api.herokuapp.com`
 ### Examples
 
 ```
-/character/list
+/characters
 ```
 Return a list of all available characters
 
 ```
-/character/josie?cmd=df2
+/characters/josie?cmd=df2
 ```
 Fuzzy search Josie's movelist for "df2"
 
 ```
-/character/paul?minusOnHit=true
+/characters/paul?minusOnHit=true
 ```
 Find all of Paul's punishable or 'loss of turn' on hit moves
 
 ```
-/character/kazuya?lastHit=m&onHit=10,-4
+/characters/kazuya?lastHit=m&onHit=10,-4
 ```
 Find all of Kazuya's moves that end with a mid and are between +10 and -4 on block
 
 ```
-/character/kazumi?speed=9,13&onBlock=10,-3&sort=block,hit
+/characters/kazumi?speed=9,13&onBlock=10,-3&sort=block,hit
 ```
 Sort Kazumi's quickest potentially abusable pokes by onBlock and onHit frames (onBlock frames have precedence)
 
