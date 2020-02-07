@@ -1,0 +1,5 @@
+@function em($size, $context: 18px) {
+	@if $size == 0 { @return 0; }
+
+	@return $size / $context + 0em;
+}
