@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// Styles
+import './styles.scss';
+
 export const Navigation = () => (
 	<nav className="Navigation">
 		<ul className="Navigation__list">

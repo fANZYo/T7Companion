@@ -4,24 +4,32 @@ import { Route } from 'react-router-dom';
 // Components
 import PageLoader from 'PageLoader';
 const navigationPromise = import(/* webpackChunkName: "navigation" */ 'Navigation');
+const logoBannerPromise = import(/* webpackChunkName: "logoBanner" */ 'LogoBanner');
 
 export default ({ component: Component, ...rest }) => {
-	const [isLoading, setLoadingState] = useState(true);
+	const [isLoadingState, setLoadingState] = useState(true);
 	const [components, setComponents] = useState({
 		Navigation: null,
+		LogoBanner: null,
 	});
 
-	const { Navigation } = components
+	const {
+		Navigation,
+		LogoBanner,
+	} = components;
 
 	useEffect(() => {
 		Promise.all([
 			navigationPromise,
+			logoBannerPromise,
 		])
 			.then(([
 				{ Navigation },
+				{ LogoBanner },
 			]) => {
 				setComponents({
 					Navigation,
+					LogoBanner,
 				});
 				setLoadingState(false);
 			});
@@ -30,10 +38,11 @@ export default ({ component: Component, ...rest }) => {
 	return (
 		<Route { ...rest } render={matchProps => (
 			<React.Fragment>
-				{ isLoading
+				{ isLoadingState
 					? <PageLoader />
 					: (
 						<React.Fragment>
+							<LogoBanner />
 							<Navigation />
 
 							<div className="wrapper">
