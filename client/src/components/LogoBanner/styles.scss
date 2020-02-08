@@ -1,9 +1,10 @@
 .LogoBanner {
 	background: red;
 	color: white;
-	padding: .5em 0;
+	padding: 1em 0;
 	position: fixed;
 	text-align: center;
 	top: 0;
 	width: 100%;
+	z-index: 1;
 }

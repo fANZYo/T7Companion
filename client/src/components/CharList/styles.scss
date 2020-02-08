@@ -1,0 +1,43 @@
+.CharList {
+	display: flex;
+	flex-wrap: wrap;
+
+	&__item {
+		flex: 0 0 calc(100% / 3);
+		padding-top: calc(100% / 3 * (4 / 3));
+		position: relative;
+	}
+
+	&__wrapper {
+		height: 100%;
+		left: 0;
+		padding: .5em;
+		position: absolute;
+		text-align: center;
+		top: 0;
+		width: 100%;
+	}
+
+	&__content {
+		display: block;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+
+	&__portrait {
+		height: 100%;
+		left: 50%;
+		position: absolute;
+		top: 0;
+		transform: translateX(-50%);
+	}
+
+	&__label {
+		background: black;
+		color: white;
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+	}
+}
