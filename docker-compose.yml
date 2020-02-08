@@ -9,6 +9,13 @@ services:
          context: ./nginx
       ports:
          - "3050:80"
+   client:
+      build:
+         dockerfile: Dockerfile.dev
+         context: ./client
+      volumes:
+         - /app/node_modules
+         - ./client:/app
    api:
       depends_on:
          - pg
@@ -16,8 +23,6 @@ services:
       build:
          dockerfile: Dockerfile.dev
          context: ./api
-      ports:
-         - "5000:5000"
       environment:
          - PGUSER=postgres
          - PGHOST=pg
