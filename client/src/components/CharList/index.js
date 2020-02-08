@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 // Styles
 import './styles.scss';
 
-const CharList = (props) => {
+const CharList = props => {
 	const { list } = props;
 
 	const getCharProfileLink = name => `/characters/${name}`;
@@ -18,7 +18,10 @@ const CharList = (props) => {
 					className="CharList__item"
 				>
 					<div className="CharList__wrapper">
-						<Link to={getCharProfileLink(char.name)} className="CharList__content">
+						<Link
+							to={getCharProfileLink(char.name)}
+							className="CharList__content"
+						>
 							<img
 								className="CharList__portrait"
 								src={getCharImage(char.name)}

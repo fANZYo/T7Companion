@@ -15,10 +15,17 @@ exports.characterList = (req, res) => {
 			req.app.locals.redis.set('list:all', JSON.stringify(rows));
 		}
 
+		const response = rows.map(char => ({
+			...char,
+			links: [
+				{ rel: 'details', method: 'GET', href: `/characters/${char.name}` },
+			],
+		}));
+
 		res.set({
 			'Cache-Control': 'private, max-age=86400',
 		})
-			.json(rows);
+			.json(response);
 	});
 };
 

@@ -6,7 +6,9 @@ import PageLoader from 'PageLoader';
 const navigationPromise = import(/* webpackChunkName: "navigation" */ 'Navigation');
 const logoBannerPromise = import(/* webpackChunkName: "logoBanner" */ 'LogoBanner');
 
-export default ({ component: Component, ...rest }) => {
+const DefaultLayout = props => {
+	const { component: Component, data, ...rest } = props;
+
 	const [isLoadingState, setLoadingState] = useState(true);
 	const [components, setComponents] = useState({
 		Navigation: null,
@@ -46,7 +48,7 @@ export default ({ component: Component, ...rest }) => {
 							<Navigation />
 
 							<div className="wrapper">
-								<Component { ...matchProps } />
+								<Component { ...matchProps } data={data} />
 							</div>
 						</React.Fragment>
 					)
@@ -55,3 +57,5 @@ export default ({ component: Component, ...rest }) => {
 		)} />
 	)
 };
+
+export default DefaultLayout;

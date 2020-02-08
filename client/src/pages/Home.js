@@ -1,22 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 // Components
 import PageLoader from 'PageLoader';
+const CharList = React.lazy(() => import(/* webpackChunkName: "charList" */ 'CharList'));
 
-const Home = () => {
-	const [charList, setCharList] = useState(null);
-
-	useEffect(() => {
-		fetch('/api/characters')
-			.then(res => res.json())
-			.then(chars => { console.log(chars); return chars; })
-			.then(setCharList);
-	}, []);
+const Home = props => {
+	const { data: { charList } } = props;
 
 	return (
-		<h1>
-			HELLO HOME
-		</h1>
+		<React.Suspense fallback={<PageLoader />}>
+			<CharList list={charList} />
+		</React.Suspense>
 	);
 };
 
