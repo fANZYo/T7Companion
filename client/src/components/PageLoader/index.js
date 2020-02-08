@@ -1,5 +1,10 @@
 import React from 'react';
 
+// Styles
+import './styles.scss';
+
 export default () => (
-	<div>Loading...</div>
+	<div className="PageLoader">
+		Loading...
+	</div>
 );
