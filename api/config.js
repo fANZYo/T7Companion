@@ -7,7 +7,7 @@ module.exports = {
 		'akuma',
 		'alisa',
 		'anna',
-		'armorking',
+		'armorKing',
 		'asuka',
 		'bob',
 		'bryan',
