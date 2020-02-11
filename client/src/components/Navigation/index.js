@@ -10,6 +10,9 @@ const Navigation = () => (
 			<li className="Navigation__item">
 				<Link className="Navigation__link" to="/">Home</Link>
 			</li>
+			<li className="Navigation__item">
+				<Link className="Navigation__link" to="/throwbreak">Throwbreak Practice</Link>
+			</li>
 		</ul>
 	</nav>
 );

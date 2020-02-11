@@ -12,11 +12,19 @@ const Details = React.lazy(() => import(
 	/* webpackChunkName: "details", */
 	'./Details'
 ));
+const Throwbreak = React.lazy(() => import(
+	/* webpackChunkName: "details", */
+	'./Throwbreak'
+));
 
 // Layouts
 const DefaultLayout = React.lazy(() => import(
 	/* webpackChunkName: "defaultLayout", */
 	'../layouts/DefaultLayout'
+));
+const ThrowbreakLayout = React.lazy(() => import(
+	/* webpackChunkName: "throwbreakLayout", */
+	'../layouts/ThrowbreakLayout'
 ));
 
 export default props => {
@@ -28,6 +36,7 @@ export default props => {
 				<DefaultLayout exact path="/" component={Home} data={data} />
 				<DefaultLayout exact path="/characters" component={Home} data={data} />
 				<DefaultLayout path="/characters/:name" component={Details} data={data} />
+				<ThrowbreakLayout path="/throwbreak" component={Throwbreak} />
 			</Switch>
 		</React.Suspense>
 	);
