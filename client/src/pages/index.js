@@ -3,11 +3,21 @@ import { Switch } from 'react-router-dom';
 
 // Components
 import PageLoader from 'PageLoader';
-import Home from './Home';
-import Details from './Details';
+
+const Home = React.lazy(() => import(
+	/* webpackChunkName: "home", */
+	'./Home'
+));
+const Details = React.lazy(() => import(
+	/* webpackChunkName: "details", */
+	'./Details'
+));
 
 // Layouts
-const DefaultLayout = React.lazy(() => import(/* webpackChunkName: "defaultLayout" */ '../layouts/DefaultLayout'));
+const DefaultLayout = React.lazy(() => import(
+	/* webpackChunkName: "defaultLayout", */
+	'../layouts/DefaultLayout'
+));
 
 export default props => {
 	const { data } = props;

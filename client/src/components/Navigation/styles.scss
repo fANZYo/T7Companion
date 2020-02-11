@@ -7,6 +7,14 @@
 	width: 100%;
 	z-index: 1;
 
+	&__list {
+		display: flex;
+	}
+
+	&__item {
+		flex: 0 0 50%;
+	}
+
 	&__link {
 		color: white;
 	}

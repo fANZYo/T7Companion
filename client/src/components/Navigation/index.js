@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 // Styles
 import './styles.scss';
 
-export const Navigation = () => (
+const Navigation = () => (
 	<nav className="Navigation">
 		<ul className="Navigation__list">
 			<li className="Navigation__item">
@@ -13,3 +13,5 @@ export const Navigation = () => (
 		</ul>
 	</nav>
 );
+
+export default Navigation;
