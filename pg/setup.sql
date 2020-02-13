@@ -16,7 +16,20 @@ CREATE TABLE movelist (
 	notes VARCHAR(100),
 	is_throw BOOLEAN,
 	is_common BOOLEAN,
-	gif VARCHAR
+	gif VARCHAR,
+	punishable BOOLEAN,
+	standing_punish VARCHAR(100),
+	crouching_punish VARCHAR(100),
+	wall_carry BOOLEAN,
+	wall_break BOOLEAN,
+	floor_break BOOLEAN
+);
+
+CREATE TABLE combos (
+	name VARCHAR(100),
+	starter VARCHAR(100),
+	combo VARCHAR(100)
+	is_wall BOOLEAN
 );
 
 COPY characters FROM '/docker-entrypoint-initdb.d/characters.csv' DELIMITER ',' CSV HEADER;
