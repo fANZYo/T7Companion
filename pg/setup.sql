@@ -25,10 +25,17 @@ CREATE TABLE movelist (
 	floor_break BOOLEAN
 );
 
+CREATE TABLE punishers (
+	name VARCHAR(100),
+	frame VARCHAR(100),
+	string VARCHAR(100),
+	damage SMALLINT
+);
+
 CREATE TABLE combos (
 	name VARCHAR(100),
 	starter VARCHAR(100),
-	combo VARCHAR(100)
+	combo VARCHAR(100),
 	is_wall BOOLEAN
 );
 
