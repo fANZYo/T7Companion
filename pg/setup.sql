@@ -18,7 +18,7 @@ CREATE TABLE movelist (
 	is_throw BOOLEAN,
 	is_common BOOLEAN,
 	gif VARCHAR,
-	punishable BOOLEAN,
+	punishable VARCHAR(25),
 );
 
 CREATE TABLE combos (
