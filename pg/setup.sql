@@ -1,11 +1,12 @@
 CREATE TABLE characters (
-	name VARCHAR(100),
+	name VARCHAR(25) PRIMARY KEY,
 	label VARCHAR(100),
 	img VARCHAR
 );
 
 CREATE TABLE movelist (
-	name VARCHAR(100),
+	id SMALLINT PRIMARY KEY,
+	char_name VARCHAR(25),
 	command VARCHAR(100),
 	hit_level VARCHAR(100),
 	damage VARCHAR(100),
@@ -18,26 +19,16 @@ CREATE TABLE movelist (
 	is_common BOOLEAN,
 	gif VARCHAR,
 	punishable BOOLEAN,
-	standing_punish VARCHAR(100),
-	crouching_punish VARCHAR(100),
-	wall_carry BOOLEAN,
-	wall_break BOOLEAN,
-	floor_break BOOLEAN
-);
-
-CREATE TABLE punishers (
-	name VARCHAR(100),
-	frame VARCHAR(100),
-	string VARCHAR(100),
-	damage SMALLINT
 );
 
 CREATE TABLE combos (
-	name VARCHAR(100),
+	id SMALLINT PRIMARY KEY,
+	char_name VARCHAR(25),
 	starter VARCHAR(100),
 	combo VARCHAR(100),
-	is_wall BOOLEAN
+	is_wall BOOLEAN,
 );
 
 COPY characters FROM '/docker-entrypoint-initdb.d/characters.csv' DELIMITER ',' CSV HEADER;
 COPY movelist FROM '/docker-entrypoint-initdb.d/movelist.csv' DELIMITER ',' CSV HEADER;
+COPY combos FROM '/docker-entrypoint-initdb.d/combos.csv' DELIMITER ',' CSV HEADER;
