@@ -1,13 +1,13 @@
 CREATE TABLE characters (
-	name VARCHAR(25) PRIMARY KEY,
-	label VARCHAR(100),
+	name VARCHAR(25) NOT NULL PRIMARY KEY,
+	label VARCHAR(50) NOT NULL,
 	img VARCHAR
 );
 
 CREATE TABLE movelist (
-	id SMALLINT PRIMARY KEY,
-	char_name VARCHAR(25),
-	command VARCHAR(100),
+	id SMALLSERIAL PRIMARY KEY,
+	char_name VARCHAR(25) NOT NULL REFERENCES characters(name),
+	command VARCHAR(100) NOT NULL,
 	hit_level VARCHAR(100),
 	damage VARCHAR(100),
 	speed VARCHAR(100),
@@ -18,17 +18,39 @@ CREATE TABLE movelist (
 	is_throw BOOLEAN,
 	is_common BOOLEAN,
 	gif VARCHAR,
-	punishable VARCHAR(25),
+	punishable VARCHAR(25)
 );
 
 CREATE TABLE combos (
-	id SMALLINT PRIMARY KEY,
-	char_name VARCHAR(25),
-	starter VARCHAR(100),
-	combo VARCHAR(100),
-	is_wall BOOLEAN,
+	id SMALLSERIAL PRIMARY KEY,
+	char_name VARCHAR(25) NOT NULL REFERENCES characters(name),
+	starter VARCHAR(100) NOT NULL,
+	combo VARCHAR(100) NOT NULL,
+	is_wall BOOLEAN NOT NULL DEFAULT false
 );
 
-COPY characters FROM '/docker-entrypoint-initdb.d/characters.csv' DELIMITER ',' CSV HEADER;
-COPY movelist FROM '/docker-entrypoint-initdb.d/movelist.csv' DELIMITER ',' CSV HEADER;
-COPY combos FROM '/docker-entrypoint-initdb.d/combos.csv' DELIMITER ',' CSV HEADER;
+COPY characters
+FROM '/docker-entrypoint-initdb.d/characters.csv' DELIMITER ',' CSV HEADER;
+
+COPY movelist(
+	char_name,
+	command,
+	hit_level,
+	damage,
+	speed,
+	on_block,
+	on_hit,
+	on_counter,
+	notes,
+	is_throw,
+	is_common,
+	gif,
+	punishable
+) FROM '/docker-entrypoint-initdb.d/movelist.csv' DELIMITER ',' CSV HEADER;
+
+COPY combos(
+	char_name,
+	starter,
+	combo,
+	is_wall
+) FROM '/docker-entrypoint-initdb.d/combos.csv' DELIMITER ',' CSV HEADER;
