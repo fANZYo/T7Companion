@@ -37,7 +37,7 @@ const middleware = {
 					.query(`
 						SELECT *
 						FROM ${config.database.movelistTable}
-						WHERE name = '${req.charId}'
+						WHERE char_name = '${req.charId}'
 					`);
 
 			if (!reply && movelist) {
