@@ -1,0 +1,641 @@
+char_name,command,standing_punish,crouching_punish
+akuma,"1, 2",i10,
+akuma,"1, f, d, d/f+2",i10,
+akuma,"1, f, d, d/f+1, 1+2",i10,
+akuma,"d+2, f, d, d/f+2",i12,
+akuma,"d+2, qcf+1, 1+2",i12,
+akuma,"d/f+1, 2",i13,
+akuma,"b+1, f, d, d/f+4",i14,
+akuma,"2, qcf+1, 1+2",i15,
+akuma,"d/f+2, 1",i16,
+akuma,"FC+d+1, f, d, d/f+2",,i10
+akuma,"FC+d+1, f, d, d/f+1, 1+2",,i10
+akuma,"WS+4, 4",,i11
+akuma,"d+2, f, d, d/f+2",,i12
+akuma,"d+2, qcf+1, 1+2",,i12
+akuma,"WS+3, f, d, d/f+2",,i13
+akuma,"WS+3, f, d, d/f+1, 1+2",,i13
+akuma,WS+2,,i15
+alisa,"1, 1",i10,
+alisa,"1, 2",i10,
+alisa,"2, 4",i12,
+alisa,d/f+4,i12,
+alisa,"3, 2",i13,
+alisa,"f+3, 2",i14,
+alisa,"u/f+4, 4",i15,
+alisa,"b+4, 4, 3+4",i15,
+alisa,d/f+2,i16,
+alisa,FC+d+1,,i10
+alisa,WS+4,,i11
+alisa,"WS+1, 2",,i13
+alisa,"u/f+4, 4",,i15
+alisa,WS+2,,i17
+anna,"1, 2",i10,
+anna,"2, 3, b",i10,
+anna,"d/f+1, 2",i13,
+anna,Rage Art,i13,
+anna,"f+2, 3",i14,
+anna,f+2+3,i14,
+anna,"b+2, 2",i15,
+anna,d/f+2,i16,
+anna,"f, f+3",i16,
+anna,u/f+4,i18,
+anna,FC+d+1,,i10
+anna,"WS+3, b",,i11
+anna,WS+4,,i11
+anna,"WS+1, 2",,i13
+anna,Rage Art,,i13
+anna,"f, f+3",,i16
+anna,WS+2,,i18
+anna,u/f+4,,i18
+armorKing,"2, 1",i10,
+armorKing,"b+1, 2",i12,
+armorKing,f+1+4,i13,
+armorKing,"d/b+2, 4",i14,
+armorKing,Dark Upper,i14,
+armorKing,u/f+4,i15,
+armorKing,"f+2, 1",i15,
+armorKing,"u/f, n, 4",i23,
+armorKing,FC+d+1,,i10
+armorKing,WS+4,,i11
+armorKing,u/f+4,,i15
+armorKing,WS+1,,i16
+armorKing,"u/f, n, 4",,i23
+asuka,1,i10,
+asuka,4,i11,
+asuka,"2, 3",i12,
+asuka,u/f+2,i14,
+asuka,"d/b+2, 1",i14,
+asuka,d/f+2,i15,
+asuka,1+2,i16,
+asuka,f+2,i17,
+asuka,u/f+4,i20,
+asuka,FC+d+1,,i10
+asuka,WS+4,,i11
+asuka,"WS+2, 1",,i13
+asuka,u/f+2,,i14
+asuka,"WS+1, 4",,i14
+asuka,FC+d/f+3,,i17
+asuka,WS+3,,i18
+asuka,u/f+4,,i20
+bob,"1, 1, 2",i10,
+bob,"1, 4",i10,
+bob,"f+2, 3",i12,
+bob,"b+2, 2",i13,
+bob,"d+1+2, 2, 1",i14,
+bob,"u/f+1+2, 1+2",i16,
+bob,d/b+1+2,i18,
+bob,u/f+3,i20,
+bob,FC+d+1,,i10
+bob,WS+4,,i11
+bob,"WS+2, 1",,i14
+bob,u/f+3,,i20
+bryan,"1, 4",i10,
+bryan,"2, 3",i10,
+bryan,"4, 3",i12,
+bryan,"d/f+2, 1",i13,
+bryan,"f, b+2",i14,
+bryan,"f+4, 1",i18,
+bryan,"u/f, n, 4",i23,
+bryan,FC+d+1,,i10
+bryan,WS+4,,i11
+bryan,WS+3,,i12
+bryan,"FC+d/f+2, 1",,i13
+bryan,WS+1,,i15
+bryan,"WS+2, f",,i19
+bryan,"u/f, n, 4",,i23
+claudio,"1, 2",i10,
+claudio,"f+2, 2",i12,
+claudio,"4, 3",i12,
+claudio,d+1+2,i13,
+claudio,"d/f+3, 1",i14,
+claudio,b+2,i14,
+claudio,"d/f+1, 2",i15,
+claudio,u/f+4,i15,
+claudio,"STB  f+1+2, 1+2",i16,
+claudio,"1+2, 1+2, f+2",i17,
+claudio,"u/f, n, 4",i23,
+claudio,FC+d+1,,i10
+claudio,WS+4,,i11
+claudio,"WS+1, 1",,i12
+claudio,"FC+d/f+2, 1+2",,i14
+claudio,WS+2,,i15
+claudio,u/f+4,,i15
+claudio,"u/f, n, 4",,i23
+devilJin,"1, 1, 2",i10,
+devilJin,"1, 2, 2",i10,
+devilJin,"2, 2",i10,
+devilJin,"b+1, 2",i12,
+devilJin,"d/f+4, 4",i13,
+devilJin,EWGF,i14,
+devilJin,d+3+4,i15,
+devilJin,f+3+4,i16,
+devilJin,FC+d+1,,i10
+devilJin,"WS+4, 4",,i11
+devilJin,"WS+1, 4",,i13
+devilJin,"WS+1, 2",,i13
+devilJin,WS+2,,i15
+dragunov,"1, 3",i10,
+dragunov,"2, 1",i10,
+dragunov,"4, 1",i12,
+dragunov,b+3,i14,
+dragunov,d/f+2,i15,
+dragunov,f+1+2,i17,
+dragunov,"u/f, n, 4",i23,
+dragunov,FC+d+1,,i10
+dragunov,WS+4,,i11
+dragunov,"WS+1, 3",,i12
+dragunov,WS+1+2,,i12
+dragunov,WS+2,,i15
+dragunov,"u/f, n, 4",,i23
+eddy,"1, 2",i10,
+eddy,"f+2, 3",i12,
+eddy,1+2,i12,
+eddy,"d/f+1, 1",i13,
+eddy,"b+3, f",i13,
+eddy,d/f+2,i14,
+eddy,d/f+3+4,i15,
+eddy,"u/f, n, 4",i23,
+eddy,FC+d+1,,i10
+eddy,WS+4,,i11
+eddy,"WS+1, 3",,i13
+eddy,WS+2,,i15
+eddy,WS+3,,i19
+eddy,"u/f, n, 4",,i23
+feng,"1, 3",i10,
+feng,"1, 2, 2",i10,
+feng,b+1+2,i13,
+feng,u/f+4,i15,
+feng,"d/b+1, 4",i16,
+feng,"f+3, 4",i21,
+feng,"u/f, n, 4",i23,
+feng,FC+d+1,,i10
+feng,WS+4,,i11
+feng,"WS+1, 2",,i14
+feng,WS+3,,i15
+feng,FC+d/f+2,,i18
+feng,"u/f, n, 4",,i23
+ganryu,b+1+2,i10,
+ganryu,"2, 1",i12,
+ganryu,"2, 1, 3+4",i12,
+ganryu,"d/f+1, 4",i13,
+ganryu,f+1+2,i14,
+ganryu,"f, f+1+2",i14,
+ganryu,d/f+2,i16,
+ganryu,FC+d+2,,i10
+ganryu,WS+4,,i11
+ganryu,"wSWs+ 1,2",,i13
+ganryu,FC+d/f+2,,i14
+ganryu,WS+2,,i16
+geese,"1, 1, 2",i10,
+geese,"1, qcb+1",i10,
+geese,"b+1, 2",i12,
+geese,"d/f+1, 1",i13,
+geese,1+2,i14,
+geese,"b+3, 2, 1+2",i14,
+geese,"2, f+1",i15,
+geese,"f+2, 1+2",i17,
+geese,"FC+d+1, qcb+1",,i10
+geese,WS+4,,i11
+geese,"WS+1, qcb+1",,i13
+geese,FC+d/f+1,,i15
+geese,WS+3,,i15
+geese,"WS+2, b+2",,i18
+gigas,"1, 2",i10,
+gigas,"2, 1",i10,
+gigas,d+2,i15,
+gigas,b+1,i20,
+gigas,"u/f, n, 4",i23,
+gigas,FC+d+1,,i10
+gigas,WS+1,,i11
+gigas,"WS+4, 2",,i13
+gigas,"wSWs+ 2,3",,i15
+gigas,WS+3,,i18
+gigas,"u/f, n, 4",,i23
+heihachi,"1, 1, 2",i10,
+heihachi,"1, 2, 2",i10,
+heihachi,"2,2",i10,
+heihachi,1+2,i12,
+heihachi,f+1+2,i12,
+heihachi,"d/f+1, 2",i13,
+heihachi,EWGF,i14,
+heihachi,"f+2, 3",i14,
+heihachi,FC+d+1,,i10
+heihachi,"WS+4, 4",,i11
+heihachi,WS+1,,i14
+heihachi,EWGF,,i14
+heihachi,"WS+3, 1+2",,i18
+jack7,f+2,i10,
+jack7,"2, 1",i11,
+jack7,"1, 1",i13,
+jack7,d/f+3+4,i13,
+jack7,"f+1, 2",i14,
+jack7,d/f+2,i15,
+jack7,f+1+2,i15,
+jack7,"f, f+2",i20,
+jack7,FC+d+1,,i10
+jack7,WS+4,,i11
+jack7,"WS+2, 1",,i14
+jack7,WS+1,,i15
+jack7,WS+1+2,,i20
+jin,"2, 4",i10,
+jin,1+2,i12,
+jin,"d/f+1, 4",i13,
+jin,Rage Art,i13,
+jin,f+1+2,i14,
+jin,EWHF,i14,
+jin,d+3+4,i15,
+jin,u/f+4,i15,
+jin,f+4,i16,
+jin,"u/f, n, 4",i23,
+jin,FC+d+1,,i10
+jin,WS+4,,i11
+jin,"WS+1, 2",,i13
+jin,Rage Art,,i13
+jin,WS+2,,i14
+jin,u/f+4,,i15
+jin,"u/f, n, 4",,i23
+josie,"1, 2, 2",i10,
+josie,"1, 4, 3",i10,
+josie,"b+1,1",i11,
+josie,"2, 4",i12,
+josie,"f+2, 4",i12,
+josie,f+1+2,i14,
+josie,d/f+2,i15,
+josie,u/f+4,i15,
+josie,"u/f, n, 4",i23,
+josie,FC+d+1,,i10
+josie,wSWs+4,,i11
+josie,"WS+2, 1",,i13
+josie,u/f+4,,i15
+josie,"u/f, n, 4",,i23
+julia,"1, 1",i10,
+julia,"1, 2",i10,
+julia,"2, b 1+2",i12,
+julia,"f+2, 4",i12,
+julia,"d/f+3, 1+2",i13,
+julia,"f, f+3",i13,
+julia,"d/f+2, 1",i15,
+julia,"u/f+4, 3",i16,
+julia,"u/f, n, 4",i23,
+julia,FC+d+1,,i10
+julia,WS+4,,i11
+julia,FC+d/f+2,,i12
+julia,WS+1,,i15
+julia,"u/f+4, 3",,i16
+julia,"u/f, n, 4",,i23
+katarina,"1, 1",i10,
+katarina,"1, 2",i10,
+katarina,"2, 2",i12,
+katarina,"f, f+2, 4",i13,
+katarina,"3, 3, 3, 3, 3",i14,
+katarina,"u/f+4, 4",i15,
+katarina,u/f+3,i19,
+katarina,FC+d+1,,i10
+katarina,WS+4,,i11
+katarina,"WS+1, 1",,i13
+katarina,"WS+3, 3, 3, 3, 3",,i14
+katarina,WS+2,,i15
+katarina,"u/f+4, 4",,i15
+katarina,u/f+3,,i19
+kazumi,"1, 1, 2",i10,
+kazumi,"1, 2, 2",i10,
+kazumi,1+2,i12,
+kazumi,"d/f+1, 2",i13,
+kazumi,u+2,i14,
+kazumi,Rage Drive,i14,
+kazumi,u/f+4,i15,
+kazumi,"3, 2",i15,
+kazumi,"F+3, 2",i18,
+kazumi,d/f+2,i18,
+kazumi,"u/f, n, 4",i23,
+kazumi,FC+d+1,,i10
+kazumi,"WS+4, 4",,i11
+kazumi,"WS+1, 2",,i12
+kazumi,u/f+4,,i15
+kazumi,WS+3,,i15
+kazumi,WS+2,,i18
+kazumi,"u/f, n, 4",,i23
+kazuya,"1, 1, 2",i10,
+kazuya,"1, 2, 2",i10,
+kazuya,"b+1, 2",i11,
+kazuya,"2, 2",i12,
+kazuya,"d/f+4, 4",i13,
+kazuya,EWGF,i13,
+kazuya,"d/f+1, 2",i15,
+kazuya,"u/f, n, 4",i23,
+kazuya,FC+d+1,,i10
+kazuya,"WS+4, 4",,i11
+kazuya,"wSWs+ 1,2",,i13
+kazuya,EWGF,,i13
+kazuya,WS+2,,i16
+kazuya,"u/f, n, 4",,i23
+king,"1, 2",i10,
+king,"2, 1",i10,
+king,"b+1, 2",i12,
+king,"b+2, 1",i14,
+king,u/f+4,i15,
+king,"f+2, 1",i15,
+king,"u/f, n, 4",i23,
+king,WS+1,,i10
+king,FC+d+1,,i10
+king,WS+4,,i11
+king,"WS+2, 2",,i14
+king,FC+d/f+2,,i15
+king,u/f+4,,i15
+king,WS+1+2,,i18
+king,"u/f, n, 4",,i23
+kuma,"2, 1",i10,
+kuma,"1, 2",i11,
+kuma,"d/b+1, 2",i12,
+kuma,"f+2, 1",i13,
+kuma,"d/f+2, 1",i15,
+kuma,"b, f+2",i16,
+kuma,u/f+3,i16,
+kuma,b+3+4,i22,
+kuma,WS+4,,i11
+kuma,"WS+1, 1",,i13
+kuma,WS+2,,i15
+kuma,u/f+3,,i16
+kuma,WS+3+4,,i22
+lars,"2, 1",i10,
+lars,"1, 2",i10,
+lars,"f+2, 4",i12,
+lars,f+1+4,i13,
+lars,"f, b+2, 1",i14,
+lars,f+1+2,i15,
+lars,u/f+3,i16,
+lars,"d/f+2, 1",i16,
+lars,"b+3, 4",i17,
+lars,"u/f, n, 4",i23,
+lars,FC+d+1,,i10
+lars,WS+4,,i11
+lars,"WS+2, 1",,i13
+lars,WS+1,,i15
+lars,"WS+1, f",,i15
+lars,u/f+3,,i16
+lars,"u/f, n, 4",,i23
+law,"1, 1, 2",i10,
+law,"2, b+2",i10,
+law,"4, 3 DSS",i11,
+law,"3, 4",i12,
+law,"3+4, 4",i14,
+law,d/f+2,i15,
+law,u/f+4,i15,
+law,"u f, n, 4",i19,
+law,FC+d+1,,i10
+law,WS+4,,i11
+law,"u/f+1, 3",,i12
+law,"WS+1, 2",,i13
+law,WS+2,,i15
+law,"u/f, n, 4",,i19
+lee,"1, 2, 4",i10,
+lee,"1, 3:3:3",i10,
+lee,"4, 3",i11,
+lee,"4, 4",i11,
+lee,f+1+2,i13,
+lee,"f+2, 1",i14,
+lee,"3, 3",i14,
+lee,d/f+2,i15,
+lee,"f+3, 3, 3, 3, 3, 4",i15,
+lee,"u/f, n, 4",i23,
+lee,"WS+3, 3",,i10
+lee,"WS+2, 3",,i14
+lee,"WS+2, 4",,i14
+lee,u/f+4,,i15
+lee,FC+u/f+4,,i18
+lee,"u/f, n, 4",,i23
+leo,"1, 4",i10,
+leo,"1, 2",i10,
+leo,"2, 2",i11,
+leo,"u/f+1, 2",i13,
+leo,"f+2, 2",i14,
+leo,d/f+2,i15,
+leo,u/f+4,i15,
+leo,"u/f, n, 4",i23,
+leo,FC+d+1,,i10
+leo,"WS+4, 1+2",,i11
+leo,WS+1+2,,i13
+leo,u/f+4,,i15
+leo,ws+2,,i16
+leo,"u/f, n, 4",,i23
+leroy,"1, 2",i10,
+leroy,"1, 2, 4",i10,
+leroy,"2, 2",i12,
+leroy,"4, 4",i12,
+leroy,"d/f+1, 4",i13,
+leroy,"1+2, 1+2, 1",i14,
+leroy,"u/f+3+4, 1+2",i14,
+leroy,"d/f+2, 1+2",i15,
+leroy,"f+4, 4",i16,
+leroy,b+3,i18,
+leroy,"u/f, n, 4",i23,
+leroy,FC+d+1,,i10
+leroy,WS+4,,i11
+leroy,"WS+1, 4",,i13
+leroy,"u/f+3+4, 1+2",,i14
+leroy,WS+2,,i15
+leroy,"u/f, n, 4",,i23
+lili,"2, 4",i10,
+lili,"1, 2",i10,
+lili,1+2,i12,
+lili,"f+2, 3",i12,
+lili,"b+2, 1",i13,
+lili,u/f+3,i15,
+lili,"3, 1",i15,
+lili,d/f+2,i16,
+lili,d+3+4,i17,
+lili,"u/f, n, 4",i23,
+lili,FC+d+1,,i10
+lili,WS+4,,i11
+lili,"WS+1, 2",,i13
+lili,FC+d/f+1,,i14
+lili,u/f+3,,i15
+lili,WS+2,,i16
+lili,WS+3,,i16
+lili,"u/f, n, 4",,i23
+luckyChloe,"1, 2",i10,
+luckyChloe,"2, 2",i12,
+luckyChloe,2:2,i12,
+luckyChloe,"d/f+3, 3",i14,
+luckyChloe,d/f+2,i15,
+luckyChloe,u/f+3,i15,
+luckyChloe,Rage Drive,i17,
+luckyChloe,FC+d+1,,i10
+luckyChloe,WS+4,,i11
+luckyChloe,"WS+1, 4",,i14
+luckyChloe,u/f+3,,i15
+luckyChloe,WS+2,,i15
+luckyChloe,FC+d/f+4,,i17
+marduk,"1, d+2",i10,
+marduk,"2, 1",i10,
+marduk,"1, 2 VTS",i10,
+marduk,"d/f+4, 2",i13,
+marduk,d/f+1,i15,
+marduk,u/f+1+2,i17,
+marduk,"d/f+3, d/f+1",i17,
+marduk,"F+3, 2",i23,
+marduk,FC+d+1,,i10
+marduk,WS+1,,i11
+marduk,WS+4,,i13
+marduk,u/f+1+2,,i17
+marduk,WS+3,,i18
+marduk,"u/f, n, 4",,i23
+masterRaven,"1, 2",i10,
+masterRaven,"2, 4",i10,
+masterRaven,4. 1,i12,
+masterRaven,"d/b+2, 1",i13,
+masterRaven,1+2,i14,
+masterRaven,"b+4, 4",i14,
+masterRaven,f+4,i15,
+masterRaven,"d/f+4, 4, 3",i15,
+masterRaven,Rage Drive,i15,
+masterRaven,d/f+2,i16,
+masterRaven,"u/f, n, 4",i23,
+masterRaven,FC+d+1,,i10
+masterRaven,WS+4,,i11
+masterRaven,WS+2,,i13
+masterRaven,WS+1,,i14
+masterRaven,"u/f, n, 4",,i23
+miguel,"1, 2",i10,
+miguel,"2, 1",i11,
+miguel,"3, 4",i13,
+miguel,"d/f+1, 2",i13,
+miguel,f+1+2,i14,
+miguel,u/f+4,i15,
+miguel,"d/f+2, 1",i16,
+miguel,"f+4, 2",i17,
+miguel,"u/f, n, 4",i23,
+miguel,FC+d+1,,i10
+miguel,WS+4,,i11
+miguel,WS+1,,i11
+miguel,"WS+2, 4",,i14
+miguel,"WS+2, 2",,i14
+miguel,u/f+4,,i15
+miguel,"u/f, n, 4",,i23
+negan,"1, 4",i10,
+negan,"1, 2, 4",i10,
+negan,"1, 2*",i10,
+negan,"2, 2",i11,
+negan,1+2,i13,
+negan,"d/f+2, 1",i13,
+negan,"d/f+4, 2*",i14,
+negan,qcf+1,i14,
+negan,d/f+2,i15,
+negan,"u/f, n, 4",i23,
+negan,FC+d+1,,i10
+negan,WS+4,,i11
+negan,"WS+1, 2",,i12
+negan,"WS+3, 2",,i14
+negan,WS+2,,i15
+negan,"u/f, n, 4",,i23
+nina,"1, 4",i10,
+nina,"b+2, 2",i12,
+nina,"d/f+3, 4",i14,
+nina,f+3,i14,
+nina,d/f+2,i15,
+nina,b+1+4,i16,
+nina,"u/f+2, 1",i18,
+nina,FC+d+1,,i10
+nina,WS+4,,i11
+nina,"WS+1, 1+2",,i13
+nina,WS+2,,i15
+nina,"u/f+2, 1",,i18
+noctis,"1, 2, 2",i10,
+noctis,"b+1, 2",i12,
+noctis,"4, 2",i12,
+noctis,"b+3, 1",i14,
+noctis,d/f+2,i15,
+noctis,f+1+2,i15,
+noctis,u/f+3,i17,
+noctis,FC+d+1,,i10
+noctis,WS+4,,i11
+noctis,"WS+1, 2",,i13
+noctis,"WS+2, 2",,i15
+noctis,u/f+3,,i17
+paul,"1, 2",i10,
+paul,"b+1, 2",i12,
+paul,d+1+2,i12,
+paul,b+3,i14,
+paul,d/f+2,i15,
+paul,"u/f+3, 4",i15,
+paul,"u/f, n, 4",i23,
+paul,WS+1,,i10
+paul,FC+d+1,,i10
+paul,WS+4,,i11
+paul,"WS+3, 2",,i13
+paul,FC+d/f+2:1,,i14
+paul,WS+2,,i15
+paul,"u/f+3, 4",,i15
+paul,"u/f, n, 4",,i23
+shaheen,"2, 3",i10,
+shaheen,"4, 1",i11,
+shaheen,"f+2, 3",i12,
+shaheen,"d/b+2, 1",i14,
+shaheen,"f, b+2",i14,
+shaheen,Rage Drive,i14,
+shaheen,u/f+4,i15,
+shaheen,d/f+2,i15,
+shaheen,"u/f, n, 4",i23,
+shaheen,FC+d+1,,i10
+shaheen,WS+4,,i11
+shaheen,"WS+3, 3",,i13
+shaheen,u/f+4,,i15
+shaheen,WS+2,,i16
+shaheen,"u/f, n, 4",,i23
+steve,"1, 1, 2",i10,
+steve,"2,1~f",i12,
+steve,"b+1, 2",i13,
+steve,Rage Art,i13,
+steve,d/f+1+2,i14,
+steve,Rage Drive 2,i14,
+steve,"f+1+2, 2",i15,
+steve,b+2,i17,
+steve,u/f+2,i22,
+steve,FC+d+1,,i10
+steve,"WS+1, 2",,i11
+steve,"WS+1, 1",,i11
+steve,Rage Art,,i13
+steve,FC+d/f+2,,i18
+steve,u/f+2,,i22
+xiaoyu,"1, d+2",i10,
+xiaoyu,"1, d+2, d",i10,
+xiaoyu,f+1+2,i12,
+xiaoyu,"b+4, 4",i13,
+xiaoyu,3,i14,
+xiaoyu,d/f+2~1,i15,
+xiaoyu,u/f+3,i16,
+xiaoyu,u/b+3+4,i22,
+xiaoyu,FC+d+1,,i10
+xiaoyu,WS+4,,i11
+xiaoyu,"WS+1, 4",,i13
+xiaoyu,u/f+3,,i16
+xiaoyu,WS+2*,,i22
+yoshimitsu,1+4,i06,
+yoshimitsu,"1, 1",i10,
+yoshimitsu,"2, 2, 1+2",i10,
+yoshimitsu,"d/f+1, 4",i13,
+yoshimitsu,"b+2, 2",i14,
+yoshimitsu,u/f+3,i15,
+yoshimitsu,d/f+2,i15,
+yoshimitsu,1+4,,i06
+yoshimitsu,WS+1+2,,i10
+yoshimitsu,FC+d+1,,i10
+yoshimitsu,WS+4,,i11
+yoshimitsu,"WS+1, 2",,i14
+yoshimitsu,"WS+2, 1",,i15
+yoshimitsu,u/f+3,,i15
+zafina,"1, 2",i10,
+zafina,"1, 3",i10,
+zafina,"1, 4",i10,
+zafina,d+1,i12,
+zafina,"d/f+1, 2",i13,
+zafina,"d/f+1, 4",i13,
+zafina,"d/f+3, 4",i14,
+zafina,d/f+2,i16,
+zafina,u/f+4,i17,
+zafina,FC+d+1,,i10
+zafina,WS+4,,i11
+zafina,"WS+1, 2",,i15
+zafina,u/f+4,,i17
+zafina,WS+2,,i18

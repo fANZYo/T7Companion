@@ -29,6 +29,14 @@ CREATE TABLE combos (
 	is_wall BOOLEAN NOT NULL DEFAULT false
 );
 
+CREATE TABLE punishers (
+	id SMALLSERIAL PRIMARY KEY,
+	char_name VARCHAR(25) NOT NULL REFERENCES characters(name),
+	command VARCHAR(100) NOT NULL,
+	standing_punish VARCHAR(3),
+	crouching_punish VARCHAR(3)
+);
+
 COPY characters
 FROM '/docker-entrypoint-initdb.d/characters.csv' DELIMITER ',' CSV HEADER;
 
@@ -54,3 +62,10 @@ COPY combos(
 	combo,
 	is_wall
 ) FROM '/docker-entrypoint-initdb.d/combos.csv' DELIMITER ',' CSV HEADER;
+
+COPY punishers(
+	char_name,
+	command,
+	standing_punish,
+	crouching_punish
+) FROM '/docker-entrypoint-initdb.d/punishers.csv' DELIMITER ',' CSV HEADER;
