@@ -1,37 +1,26 @@
 const FuzzySearch = require('fuzzy-search');
-const config = require('../config');
 
 exports.characterList = (req, res) => {
-	req.app.locals.redis.get('list:all', async (err, reply) => {
-		const { rows } = reply
-			? { rows: JSON.parse(reply) }
-			: await req.app.locals.pg
-				.query(`
-					SELECT *
-					FROM ${config.database.listTable}
-				`);
+	const response = req.data.map(char => ({
+		...char,
+		links: [
+			{ rel: 'details', method: 'GET', href: `/characters/${char.name}` },
+		],
+	}));
 
-		if (!reply && rows) {
-			req.app.locals.redis.set('list:all', JSON.stringify(rows));
-		}
+	res.set({
+		'Cache-Control': 'private, max-age=86400',
+	})
+		.json(response);
+};
 
-		const response = rows.map(char => ({
-			...char,
-			links: [
-				{ rel: 'details', method: 'GET', href: `/characters/${char.name}` },
-			],
-		}));
-
-		res.set({
-			'Cache-Control': 'private, max-age=86400',
-		})
-			.json(response);
-	});
+exports.summary = (req, res) => {
+	res.json(req.data);
 };
 
 exports.commandSearch = (req, res, next) => {
 	if (req.query.cmd) {
-		const searcher = new FuzzySearch(req.movelist, ['command'], { sort: true });
+		const searcher = new FuzzySearch(req.data, ['command'], { sort: true });
 		const matchedMovelist = searcher.search(req.query.cmd);
 
 		res.set({
@@ -116,7 +105,7 @@ exports.filterMovelist = (req, res) => {
 		})
 		.reduce((obj, cur) => Object.assign(obj, cur), {});
 
-	const { movelist } = req;
+	const { data: movelist } = req;
 
 	const movelistCpy = Object.entries(filters)
 		.reduce((list, [filter, value]) =>
@@ -135,21 +124,4 @@ exports.filterMovelist = (req, res) => {
 		'Cache-Control': 'private, max-age=86400',
 	})
 		.json(movelistCpy);
-};
-
-exports.commonMoves = (req, res) => {
-	req.app.locals.redis.get(`movelist:commons:${req.charId}`, async (err, reply) => {
-		const { rows } = reply
-			? { rows: JSON.parse(reply) }
-			: { rows: req.movelist.filter(move => move.is_common) };
-
-		if (!reply && rows) {
-			req.app.locals.redis.set(`movelist:commons:${req.charId}`, JSON.stringify(rows));
-		}
-
-		res.set({
-			'Cache-Control': 'private, max-age=86400',
-		})
-			.json(rows);
-	});
 };

@@ -1,7 +1,18 @@
 module.exports = {
-	database: {
-		movelistTable: 'movelist',
-		listTable: 'characters',
+	db: {
+		tables: {
+			characters: 'characters',
+			movelist: 'movelist',
+			punishers: 'punishers',
+			combos: 'combos',
+		},
+	},
+	redis: {
+		keys: charId => ({
+			charList: 'list:all',
+			summary: `summary:${charId}`,
+			movelist: `movelist:${charId}`,
+		}),
 	},
 	characters: [
 		'akuma',

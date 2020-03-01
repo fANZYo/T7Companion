@@ -1,4 +1,9 @@
 const config = require('../config');
+const {
+	charListQuery,
+	summaryQuery,
+	movelistQuery,
+} = require('../queries');
 
 const middleware = {
 	lowerQuery: (req, res, next) => {
@@ -25,27 +30,27 @@ const middleware = {
 		}
 	},
 	redisKeyGen: (req, res, next) => {
-		req.redisKey = `movelist:${req.charId}`;
+		req.redisKeys = config.redis.keys(req.charId);
 
 		next();
 	},
-	getCharacterMovelist: (req, res, next) => {
-		req.app.locals.redis.get(req.redisKey, async (err, reply) => {
-			const { rows: movelist } = reply
-				? { rows: JSON.parse(reply) }
-				: await req.app.locals.pg
-					.query(`
-						SELECT *
-						FROM ${config.database.movelistTable}
-						WHERE char_name = '${req.charId}'
-					`);
+	readThroughCache: type => (req, res, next) => {
+		const keyQueryMap = {
+			charList: charListQuery,
+			summary: summaryQuery,
+			movelist: movelistQuery,
+		};
 
-			if (!reply && movelist) {
-				req.app.locals.redis.set(req.redisKey, JSON.stringify(movelist));
+		req.app.locals.redis.get(req.redisKeys[type], async (err, reply) => {
+			const { rows } = reply
+				? { rows: JSON.parse(reply) }
+				: await keyQueryMap[type](req.app.locals.pg, req.charId);
+
+			if (!reply && rows) {
+				req.app.locals.redis.set(req.redisKeys[type], JSON.stringify(rows));
 			}
 
-			req.movelist = movelist;
-
+			req.data = rows;
 			next();
 		});
 	},
