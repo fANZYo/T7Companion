@@ -4,7 +4,7 @@ exports.characterList = (req, res) => {
 	const response = req.data.map(char => ({
 		...char,
 		links: [
-			{ rel: 'details', method: 'GET', href: `/characters/${char.name}` },
+			{ rel: 'summary', method: 'GET', href: `/characters/${char.name}` },
 		],
 	}));
 

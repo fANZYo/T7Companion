@@ -16,7 +16,7 @@ const Details = props => {
 	useEffect(() => {
 		const { name } = match.params;
 		const { links } = charList.find(char => char.name === name) || {};
-		const { href } = links.find(link => link.rel === 'details') || {};
+		const { href } = links.find(link => link.rel === 'summary') || {};
 
 		fetch(`/api${href}`)
 			.then(res => res.json())
@@ -26,11 +26,7 @@ const Details = props => {
 
 	return isLoadingState
 		? <PageLoader />
-		: (
-			<React.Suspense fallback={<PageLoader />}>
-				<CharDetails data={charDetails} />
-			</React.Suspense>
-		);
+		: <CharDetails data={charDetails} />;
 };
 
 export default Details;
